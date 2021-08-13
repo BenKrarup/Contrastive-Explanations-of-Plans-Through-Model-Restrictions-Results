@@ -1,0 +1,443 @@
+depots first test
+question,name,Literals,Metric,Evaluated,Time
+,pfile1,44,53.182,20,0.00
+AddCompilation,AddCompilation_unload-hoist0-crate0-truck0-depot0,56,68.473,54,0.02
+AddCompilation,AddCompilation_unload-hoist0-crate0-truck0-depot0,56,54.557,212,0.06
+,AddCompilation_load-hoist2-crate1-truck1-distributor1,56,85.946,51,0.02
+,AddCompilation_load-hoist2-crate1-truck1-distributor1,56,68.265,240,0.06
+,AddCompilation_unload-hoist1-crate0-truck0-distributor0,56,53.182,24,0.00
+,AddCompilation_lift-hoist1-crate0-crate1-distributor0,68,57.890,761,0.18
+,AddCompilation_lift-hoist1-crate0-crate1-distributor0,68,54.807,794,0.20
+,AddCompilation_lift-hoist1-crate0-crate1-distributor0,68,53.182,2960,0.86
+,AddCompilation_drive-truck0-distributor0-distributor0,62,53.182,22,0.00
+,AddCompilation_drive-truck1-distributor1-distributor1,62,53.934,28,0.00
+,AddCompilation_drive-truck1-distributor1-distributor1,62,53.808,624,0.18
+,AddCompilation_lift-hoist2-crate0-crate1-distributor1,68,79.241,2569,0.92
+,AddCompilation_lift-hoist2-crate0-crate1-distributor1,68,76.907,2717,1.00
+,AddCompilation_lift-hoist0-crate0-crate1-depot0,68,62.781,68,0.02
+,AddCompilation_load-hoist0-crate0-truck1-depot0,56,62.015,256,0.06
+,AddCompilation_load-hoist0-crate0-truck1-depot0,56,61.266,928,0.30
+,AddCompilation_drop-hoist0-crate1-crate0-depot0,56,113.823,354,0.14
+,AddCompilation_drop-hoist0-crate1-crate0-depot0,56,112.113,2906,1.05
+,AddCompilation_drop-hoist0-crate1-crate0-depot0,56,111.488,3272,1.30
+RemoveCompilation,RemoveCompilation_drive-truck0-distributor1-distributor0,45,56.863,89,0.02
+RemoveCompilation,RemoveCompilation_drive-truck0-distributor1-distributor0,45,55.030,502,0.14
+RemoveCompilation,RemoveCompilation_drive-truck0-distributor1-distributor0,45,54.405,2249,0.64
+,RemoveCompilation_unload-hoist1-crate1-truck1-distributor0,45,71.363,267,0.08
+,RemoveCompilation_drop-hoist2-crate0-pallet2-distributor1,plan not found
+,RemoveCompilation_load-hoist1-crate0-truck0-distributor0,45,56.863,98,0.02
+,RemoveCompilation_load-hoist1-crate0-truck0-distributor0,45,54.807,1157,0.32
+,RemoveCompilation_unload-hoist2-crate0-truck0-distributor1,45,56.863,101,0.02
+,RemoveCompilation_unload-hoist2-crate0-truck0-distributor1,45,54.807,1431,0.40
+,RemoveCompilation_load-hoist0-crate1-truck1-depot0,45,54.807,28,0.00
+,RemoveCompilation_lift-hoist0-crate1-pallet0-depot0,plan not found
+,RemoveCompilation_lift-hoist1-crate0-pallet1-distributor0,plan not found
+,RemoveCompilation_drive-truck0-distributor0-distributor1,45,53.933,25,0.02
+,RemoveCompilation_drive-truck1-depot0-distributor0,45,53.933,25,0.02
+ReplaceCompilation,ReplaceCompilation_load-hoist1-crate0-truck0-distributor0-with-drive-truck0-distributor0-depot0,44,56.865,9,0.02
+ReplaceCompilation,ReplaceCompilation_load-hoist1-crate0-truck0-distributor0-with-drive-truck0-distributor0-depot0,44,54.407000000000004,359,0.14
+,ReplaceCompilation_drive-truck0-distributor1-distributor0-with-drop-hoist0-crate1-pallet0-depot0,44,54.183,20,0.00
+,ReplaceCompilation_drop-hoist2-crate0-pallet2-distributor1-with-load-hoist2-crate0-truck0-distributor1,44,53.184000000000005,6,0.00
+,ReplaceCompilation_lift-hoist1-crate0-pallet1-distributor0-with-load-hoist0-crate1-truck1-depot0,44,53.781,12,0.02
+,ReplaceCompilation_load-hoist0-crate1-truck1-depot0-with-drive-truck1-depot0-distributor1,44,54.683,13,0.00
+,ReplaceCompilation_drop-hoist1-crate1-pallet1-distributor0-with-drive-truck0-distributor1-depot0,44,54.183,2,0.00
+,ReplaceCompilation_unload-hoist1-crate1-truck1-distributor0-with-drive-truck0-distributor1-depot0,44,54.183,3,0.00
+,ReplaceCompilation_drive-truck0-distributor0-distributor1-with-drive-truck0-distributor0-depot0,44,53.184000000000005,7,0.00
+,ReplaceCompilation_lift-hoist0-crate1-pallet0-depot0-with-drive-truck0-distributor1-depot0,44,54.183,20,0.00
+,ReplaceCompilation_lift-hoist0-crate1-pallet0-depot0-with-lift-hoist1-crate0-pallet1-distributor0,44,54.183,18,0.00
+TimeWindowCompilation,TimeWindowCompilation_unload-hoist2-crate0-truck0-distributor1_0_5,46,56.863,111,0.02
+TimeWindowCompilation,TimeWindowCompilation_unload-hoist2-crate0-truck0-distributor1_0_5,46,54.807,4003,1.22
+,TimeWindowCompilation_drive-truck0-distributor1-distributor0_0_1,46,56.863,98,0.02
+,TimeWindowCompilation_drive-truck0-distributor1-distributor0_0_1,46,54.405,1092,0.32
+,TimeWindowCompilation_drive-truck0-distributor0-distributor1_0_3,46,56.863,112,0.04
+,TimeWindowCompilation_drive-truck0-distributor0-distributor1_0_3,46,54.405,393,0.12
+,TimeWindowCompilation_unload-hoist1-crate1-truck1-distributor0_0_27,46,71.363,522,0.16
+,TimeWindowCompilation_unload-hoist1-crate1-truck1-distributor0_0_35,46,71.363,522,0.14
+,TimeWindowCompilation_lift-hoist1-crate0-pallet1-distributor0_0_2,46,56.863,136,0.04
+,TimeWindowCompilation_lift-hoist1-crate0-pallet1-distributor0_0_2,46,54.405,348,0.10
+,TimeWindowCompilation_load-hoist1-crate0-truck0-distributor0_0_3,46,56.863,108,0.02
+,TimeWindowCompilation_load-hoist1-crate0-truck0-distributor0_0_3,46,54.807,3082,0.86
+,TimeWindowCompilation_load-hoist0-crate1-truck1-depot0_0_168,46,54.807,28,0.00
+,TimeWindowCompilation_load-hoist0-crate1-truck1-depot0_0_168,46,54.405,236,0.06
+,TimeWindowCompilation_load-hoist0-crate1-truck1-depot0_0_122,46,54.807,28,0.00
+,TimeWindowCompilation_load-hoist0-crate1-truck1-depot0_0_122,46,54.405,236,0.06
+,TimeWindowCompilation_drive-truck1-depot0-distributor0_13_13,46,53.933,25,0.00
+ReorderCompilation,ReorderCompilation_drive-truck0-distributor1-distributor0_drop-hoist2-crate0-pallet2-distributor1,47,56.863,127,0.04
+ReorderCompilation,ReorderCompilation_drive-truck0-distributor1-distributor0_drop-hoist2-crate0-pallet2-distributor1,47,54.405,317,0.10
+,ReorderCompilation_unload-hoist2-crate0-truck0-distributor1_load-hoist1-crate0-truck0-distributor0,47,56.863,98,0.02
+,ReorderCompilation_unload-hoist2-crate0-truck0-distributor1_load-hoist1-crate0-truck0-distributor0,47,54.807,1455,0.40
+,ReorderCompilation_drop-hoist2-crate0-pallet2-distributor1_drop-hoist2-crate0-pallet2-distributor1,plan not found
+,ReorderCompilation_unload-hoist2-crate0-truck0-distributor1_lift-hoist0-crate1-pallet0-depot0,47,58.488,205,0.06
+,ReorderCompilation_unload-hoist1-crate1-truck1-distributor0_unload-hoist2-crate0-truck0-distributor1,47,56.863,103,0.02
+,ReorderCompilation_unload-hoist1-crate1-truck1-distributor0_unload-hoist2-crate0-truck0-distributor1,47,56.239,281,0.08
+,ReorderCompilation_unload-hoist1-crate1-truck1-distributor0_unload-hoist2-crate0-truck0-distributor1,47,56.030,1552,0.44
+,ReorderCompilation_unload-hoist1-crate1-truck1-distributor0_unload-hoist2-crate0-truck0-distributor1,47,54.807,1667,0.46
+,ReorderCompilation_unload-hoist1-crate1-truck1-distributor0_lift-hoist0-crate1-pallet0-depot0,plan not found
+,ReorderCompilation_drop-hoist2-crate0-pallet2-distributor1_lift-hoist0-crate1-pallet0-depot0,47,57.655,191,0.04
+,ReorderCompilation_drive-truck1-depot0-distributor0_unload-hoist2-crate0-truck0-distributor1,47,56.863,109,0.02
+,ReorderCompilation_drive-truck1-depot0-distributor0_unload-hoist2-crate0-truck0-distributor1,47,54.405,291,0.08
+,ReorderCompilation_unload-hoist2-crate0-truck0-distributor1_drive-truck1-depot0-distributor0,47,57.614,138,0.02
+,ReorderCompilation_unload-hoist2-crate0-truck0-distributor1_drive-truck1-depot0-distributor0,47,55.156,263,0.06
+,ReorderCompilation_load-hoist0-crate1-truck1-depot0_drop-hoist2-crate0-pallet2-distributor1,47,56.863,121,0.02
+,ReorderCompilation_load-hoist0-crate1-truck1-depot0_drop-hoist2-crate0-pallet2-distributor1,47,54.405,297,0.08
+ForceTimeWindowCompilation,ForceTimeWindowCompilation_load-hoist1-crate0-truck0-distributor0_0_3,46,54.557,354,0.08
+,ForceTimeWindowCompilation_drive-truck1-depot0-distributor0_37_38,46,54.807,1733,0.56
+,ForceTimeWindowCompilation_lift-hoist1-crate0-pallet1-distributor0_0_2,46,56.863,125,0.04
+,ForceTimeWindowCompilation_lift-hoist1-crate0-pallet1-distributor0_0_2,46,54.405,337,0.10
+,ForceTimeWindowCompilation_load~hoist1~crate0~truck0~distributor0_48_50,46,59.113,217,0.08
+,ForceTimeWindowCompilation_load~hoist1~crate0~truck0~distributor0_48_50,46,56.030,430,0.16
+,ForceTimeWindowCompilation_unload~hoist2~crate0~truck0~distributor1_9_12,46,54.557,181,0.08
+,ForceTimeWindowCompilation_drive-truck0-distributor0-distributor1_0_3,46,58.238,1762,0.58
+,ForceTimeWindowCompilation_drive-truck0-distributor0-distributor1_0_3,46,55.780,1974,0.66
+,ForceTimeWindowCompilation_lift-hoist0-crate1-pallet0-depot0_0_2,46,56.863,142,0.04
+,ForceTimeWindowCompilation_lift-hoist0-crate1-pallet0-depot0_0_2,46,54.405,354,0.10
+,ForceTimeWindowCompilation_load-hoist0-crate1-truck1-depot0_0_82,46,56.863,186,0.04
+,ForceTimeWindowCompilation_load-hoist0-crate1-truck1-depot0_0_82,46,54.405,382,0.10
+,ForceTimeWindowCompilation_load-hoist0-crate1-truck1-depot0_0_82,46,53.182,7759,2.40
+,ForceTimeWindowCompilation_drive-truck0-distributor1-distributor0_0_3,46,56.863,130,0.04
+,ForceTimeWindowCompilation_drive-truck0-distributor1-distributor0_0_3,46,54.405,457,0.12
+,ForceTimeWindowCompilation_drive~truck1~depot0~distributor0_38_39,46,54.807,1733,0.80
+ForceTimeWindowOnlyCompilation,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_140,47,56.863,179,0.04
+ForceTimeWindowOnlyCompilation,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_140,47,54.405,375,0.10
+ForceTimeWindowOnlyCompilation,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_140,47,53.182,5421,1.62
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_118,47,56.863,179,0.04
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_118,47,54.405,375,0.10
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_118,47,53.182,5421,1.62
+,ForceTimeWindowOnlyCompilation_drive-truck1-depot0-distributor0_0_2,47,54.807,1787,0.58
+,ForceTimeWindowOnlyCompilation_lift-hoist1-crate0-pallet1-distributor0_0_3,47,56.863,115,0.02
+,ForceTimeWindowOnlyCompilation_lift-hoist1-crate0-pallet1-distributor0_0_3,47,54.405,327,0.10
+,ForceTimeWindowOnlyCompilation_drive-truck1-depot0-distributor0_0_1,47,54.807,1787,0.58
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_128,47,56.863,179,0.04
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_128,47,54.405,375,0.10
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_128,47,53.182,5421,1.62
+,ForceTimeWindowOnlyCompilation_lift-hoist1-crate0-pallet1-distributor0_0_2,47,56.863,115,0.04
+,ForceTimeWindowOnlyCompilation_lift-hoist1-crate0-pallet1-distributor0_0_2,47,54.405,327,0.10
+,ForceTimeWindowOnlyCompilation_drive-truck0-distributor1-distributor0_0_3,47,56.863,118,0.04
+,ForceTimeWindowOnlyCompilation_drive-truck0-distributor1-distributor0_0_3,47,54.405,399,0.12
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_159,47,56.863,179,0.04
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_159,47,54.405,375,0.12
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_159,47,53.182,5421,1.62
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_112,47,56.863,179,0.04
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_112,47,54.405,375,0.10
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate1-truck1-depot0_0_112,47,53.182,5421,1.60
+question,name,Literals,Metric,Evaluated,Time
+,pfile10,192,256.171,122691,245.06
+AddCompilation,AddCompilation_drive-truck0-depot0-depot0,264,258.838,117856,241.96
+AddCompilation,AddCompilation_drive-truck0-depot0-depot0,264,248.505,149204,305.88
+,AddCompilation_unload-hoist1-crate4-truck0-depot1,264,252.503,59821,90.46
+,AddCompilation_drive-truck1-depot1-distributor0,264,333.820,101441,178.44
+,AddCompilation_lift-hoist4-crate2-crate5-distributor1,plan not found
+,AddCompilation_unload-hoist5-crate4-truck0-distributor2,264,252.503,51484,75.96
+,AddCompilation_drive-truck1-distributor0-distributor0,264,293.503,84522,163.74
+,AddCompilation_drive-truck1-distributor0-distributor0,264,223.838,90167,172.34
+,AddCompilation_lift-hoist5-crate0-crate2-distributor2,plan not found
+,AddCompilation_unload-hoist0-crate0-truck0-depot0,plan not found
+,AddCompilation_drop-hoist5-crate1-crate3-distributor2,408,272.503,84229,170.08
+,AddCompilation_load-hoist5-crate1-truck0-distributor2,plan not found
+RemoveCompilation,RemoveCompilation_drive-truck1-distributor0-depot2,193,204.004,106854,185.42
+,RemoveCompilation_unload-hoist3-crate2-truck0-distributor0,193,286.139,63099,110.22
+,RemoveCompilation_drive-truck0-distributor2-distributor0,193,255.838,95276,169.56
+,RemoveCompilation_drive-truck0-distributor2-distributor0,193,245.505,131553,242.68
+,RemoveCompilation_unload-hoist2-crate0-truck1-depot2,193,204.004,50195,68.01
+,RemoveCompilation_unload-hoist2-crate0-truck1-depot2,193,172.837,121564,209.84
+,RemoveCompilation_load-hoist5-crate2-truck0-distributor2,plan not found
+,RemoveCompilation_unload-hoist5-crate4-truck1-distributor2,plan not found
+,RemoveCompilation_drive-truck0-distributor0-depot1,193,255.838,156883,362.46
+,RemoveCompilation_load-hoist3-crate5-truck0-distributor0,193,252.503,59666,96.46
+,RemoveCompilation_drive-truck0-distributor0-depot0,193,260.836,57788,108.70
+,RemoveCompilation_drive-truck1-distributor2-depot0,193,256.171,111370,227.46
+,RemoveCompilation_drive-truck1-distributor2-depot0,193,245.837,142441,289.35
+ReplaceCompilation,ReplaceCompilation_unload-hoist0-crate3-truck1-depot0-with-lift-hoist0-crate1-pallet0-depot0,192,250.838,55239,122.14
+ReplaceCompilation,ReplaceCompilation_unload-hoist0-crate3-truck1-depot0-with-lift-hoist0-crate1-pallet0-depot0,192,243.17100000000002,82562,177.34
+,ReplaceCompilation_lift-hoist5-crate3-crate2-distributor2-with-lift-hoist1-crate0-pallet1-depot1,192,257.837,120124,232.24
+,ReplaceCompilation_lift-hoist5-crate3-crate2-distributor2-with-lift-hoist1-crate0-pallet1-depot1,192,247.504,151472,290.82
+,ReplaceCompilation_drive-truck1-depot2-distributor2-with-lift-hoist5-crate3-crate2-distributor2,192,256.837,111124,274.00
+,ReplaceCompilation_drive-truck0-distributor0-depot1-with-drive-truck0-distributor0-depot2,plan not found
+,ReplaceCompilation_drive-truck0-depot1-distributor0-with-lift-hoist1-crate0-pallet1-depot1,192,248.173,71227,161.24
+,ReplaceCompilation_drive-truck0-depot1-distributor0-with-lift-hoist1-crate0-pallet1-depot1,192,235.172,108922,259.16
+,ReplaceCompilation_lift-hoist3-crate5-pallet3-distributor0-with-drive-truck1-depot2-distributor0,192,259.33799999999997,122614,242.62
+,ReplaceCompilation_unload-hoist1-crate5-truck0-depot1-with-drive-truck1-distributor2-depot0,plan not found
+,ReplaceCompilation_drive-truck1-distributor2-depot0-with-lift-hoist2-crate4-pallet2-depot2,192,282.839,16648,31.84
+,ReplaceCompilation_lift-hoist1-crate0-pallet1-depot1-with-lift-hoist2-crate4-pallet2-depot2,192,171.33700000000002,114594,225.52
+,ReplaceCompilation_drop-hoist3-crate2-pallet3-distributor0-with-lift-hoist0-crate3-pallet0-depot0,192,246.838,3,0.04
+TimeWindowCompilation,TimeWindowCompilation_drop-hoist3-crate2-pallet3-distributor0_0_2,plan not found
+,TimeWindowCompilation_unload-hoist5-crate0-truck1-distributor2_2_70,plan not found
+,TimeWindowCompilation_drive-truck1-depot2-distributor0_6_19,plan not found
+,TimeWindowCompilation_load-hoist3-crate5-truck0-distributor0_0_115,194,252.503,133570,259.16
+,TimeWindowCompilation_drive-truck0-distributor1-distributor2_4_15,plan not found
+,TimeWindowCompilation_drive-truck1-depot0-depot1_1_4,plan not found
+,TimeWindowCompilation_drive-truck0-depot0-distributor1_1_2,plan not found
+,TimeWindowCompilation_unload-hoist2-crate0-truck1-depot2_1_54,194,204.004,106955,167.74
+,TimeWindowCompilation_unload-hoist5-crate0-truck1-distributor2_3_94,plan not found
+,TimeWindowCompilation_load-hoist5-crate2-truck0-distributor2_5_51,plan not found
+ReorderCompilation,ReorderCompilation_load-hoist0-crate3-truck0-depot0_drive-truck0-distributor0-depot0,195,260.836,58543,96.90
+,ReorderCompilation_load-hoist3-crate5-truck0-distributor0_load-hoist2-crate0-truck1-depot2,195,256.171,123796,250.12
+,ReorderCompilation_load-hoist3-crate5-truck0-distributor0_load-hoist2-crate0-truck1-depot2,195,245.837,155308,313.51
+,ReorderCompilation_load-hoist5-crate3-truck1-distributor2_drop-hoist3-crate2-pallet3-distributor0,195,256.171,123207,249.04
+,ReorderCompilation_load-hoist5-crate3-truck1-distributor2_drop-hoist3-crate2-pallet3-distributor0,195,245.837,154653,312.22
+,ReorderCompilation_drop-hoist5-crate4-pallet5-distributor2_load-hoist2-crate0-truck1-depot2,plan not found
+,ReorderCompilation_drive-truck0-distributor0-depot1_unload-hoist1-crate5-truck0-depot1,plan not found
+,ReorderCompilation_load-hoist2-crate0-truck1-depot2_lift-hoist2-crate4-pallet2-depot2,195,256.171,152877,340.36
+,ReorderCompilation_lift-hoist3-crate5-pallet3-distributor0_unload-hoist3-crate2-truck0-distributor0,195,256.171,122746,248.18
+,ReorderCompilation_lift-hoist3-crate5-pallet3-distributor0_unload-hoist3-crate2-truck0-distributor0,195,245.837,154270,312.06
+,ReorderCompilation_lift-hoist5-crate3-crate2-distributor2_load-hoist5-crate2-truck0-distributor2,195,256.171,121408,244.32
+,ReorderCompilation_lift-hoist5-crate3-crate2-distributor2_load-hoist5-crate2-truck0-distributor2,195,245.837,152756,307.54
+,ReorderCompilation_drive-truck0-depot1-distributor0_drive-truck1-depot2-distributor2,195,256.171,115077,237.20
+,ReorderCompilation_drive-truck0-depot1-distributor0_drive-truck1-depot2-distributor2,195,245.837,147126,300.28
+,ReorderCompilation_drive-truck1-distributor2-depot0_drive-truck0-distributor2-distributor0,195,256.171,126323,254.32
+,ReorderCompilation_drive-truck1-distributor2-depot0_drive-truck0-distributor2-distributor0,195,245.837,158442,320.12
+ForceTimeWindowCompilation,ForceTimeWindowCompilation_drop-hoist3-crate2-pallet3-distributor0_6_8,plan not found
+,ForceTimeWindowCompilation_drive-truck0-distributor2-distributor0_0_4,plan not found
+,ForceTimeWindowCompilation_lift-hoist5-crate2-pallet5-distributor2_5_8,194,260.836,106554,200.30
+,ForceTimeWindowCompilation_unload-hoist5-crate4-truck1-distributor2_3_14,plan not found
+,ForceTimeWindowCompilation_drive-truck1-distributor2-depot2_3_3,plan not found
+,ForceTimeWindowCompilation_drop-hoist0-crate3-pallet0-depot0_3_5,plan not found
+,ForceTimeWindowCompilation_drive-truck1-depot2-distributor0_6_14,plan not found
+,ForceTimeWindowCompilation_drive-truck1-distributor0-distributor2_0_2,plan not found
+,ForceTimeWindowCompilation_lift-hoist0-crate1-pallet0-depot0_2_5,194,218.500,48069,75.54
+,ForceTimeWindowCompilation_drive-truck1-depot0-depot1_6_8,plan not found
+ForceTimeWindowOnlyCompilation,ForceTimeWindowOnlyCompilation_unload-hoist2-crate0-truck1-depot2_4_43,195,287.836,106353,161.02
+ForceTimeWindowOnlyCompilation,ForceTimeWindowOnlyCompilation_unload-hoist2-crate0-truck1-depot2_4_43,195,281.337,146248,259.32
+,ForceTimeWindowOnlyCompilation_unload-hoist2-crate0-truck1-depot2_4_42,195,287.836,106353,159.84
+,ForceTimeWindowOnlyCompilation_unload-hoist2-crate0-truck1-depot2_4_42,195,281.337,146248,258.18
+,ForceTimeWindowOnlyCompilation_load-hoist5-crate2-truck0-distributor2_4_77,195,260.836,100562,193.96
+,ForceTimeWindowOnlyCompilation_lift-hoist5-crate2-pallet5-distributor2_0_2,plan not found
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate3-truck0-depot0_1_45,plan not found
+,ForceTimeWindowOnlyCompilation_unload-hoist3-crate2-truck0-distributor0_6_182,195,250.836,103231,188.40
+,ForceTimeWindowOnlyCompilation_unload-hoist3-crate2-truck0-distributor0_6_182,195,243.170,146506,261.10
+,ForceTimeWindowOnlyCompilation_unload-hoist2-crate0-truck1-depot2_2_56,195,287.836,129539,200.76
+,ForceTimeWindowOnlyCompilation_unload-hoist2-crate0-truck1-depot2_2_56,195,281.337,169434,299.14
+,ForceTimeWindowOnlyCompilation_lift-hoist3-crate5-pallet3-distributor0_4_5,plan not found
+,ForceTimeWindowOnlyCompilation_load-hoist0-crate3-truck0-depot0_2_35,plan not found
+,ForceTimeWindowOnlyCompilation_lift-hoist5-crate2-pallet5-distributor2_3_5,plan not found
+question,name,Literals,Metric,Evaluated,Time
+,pfile13,224,96.697,112,0.12
+,pfile13,224,91.601,1216,1.54
+AddCompilation,AddCompilation_lift-hoist5-crate0-crate5-distributor2,764,168.826,30076,93.86
+,AddCompilation_drop-hoist0-crate4-crate5-depot0,464,133.591,645,0.76
+,AddCompilation_drop-hoist0-crate4-crate5-depot0,464,122.201,11633,20.90
+,AddCompilation_drop-hoist0-crate5-crate1-depot0,464,119.290,720,1.02
+,AddCompilation_drop-hoist0-crate5-crate1-depot0,464,96.730,9709,15.04
+,AddCompilation_unload-hoist0-crate0-truck0-depot0,296,94.698,89,0.10
+,AddCompilation_unload-hoist0-crate0-truck0-depot0,296,91.601,1070,1.14
+,AddCompilation_unload-hoist1-crate2-truck1-depot1,296,91.034,200,0.18
+,AddCompilation_unload-hoist1-crate2-truck1-depot1,296,77.708,1835,1.84
+,AddCompilation_load-hoist1-crate2-truck0-depot1,296,112.329,145,0.14
+,AddCompilation_load-hoist1-crate4-truck0-depot1,296,137.031,145,0.14
+,AddCompilation_load-hoist1-crate4-truck0-depot1,296,121.336,1557,1.52
+,AddCompilation_unload-hoist4-crate0-truck1-distributor1,296,83.294,275,0.26
+,AddCompilation_unload-hoist4-crate0-truck1-distributor1,296,77.288,2740,2.98
+,AddCompilation_load-hoist3-crate2-truck1-distributor0,296,83.465,183,0.20
+,AddCompilation_load-hoist5-crate3-truck0-distributor2,296,104.922,195,0.22
+,AddCompilation_load-hoist5-crate3-truck0-distributor2,296,98.824,3397,5.02
+RemoveCompilation,RemoveCompilation_drive-truck1-depot2-depot1,225,96.697,113,0.10
+RemoveCompilation,RemoveCompilation_drive-truck1-depot2-depot1,225,92.202,1143,1.22
+,RemoveCompilation_unload-hoist1-crate5-truck1-depot1,225,96.697,112,0.10
+,RemoveCompilation_drive-truck1-depot1-depot2,225,96.697,113,0.22
+,RemoveCompilation_drive-truck1-depot1-depot2,225,93.002,1262,2.30
+,RemoveCompilation_unload-hoist0-crate0-truck0-depot0,225,103.267,1001,1.04
+,RemoveCompilation_unload-hoist0-crate0-truck0-depot0,225,101.668,31131,65.56
+,RemoveCompilation_load-hoist2-crate1-truck1-depot2,225,96.697,112,0.10
+,RemoveCompilation_load-hoist2-crate1-truck1-depot2,225,79.002,1320,1.38
+,RemoveCompilation_load-hoist2-crate1-truck1-depot2,225,72.592,2689,3.42
+,RemoveCompilation_drive-truck1-distributor1-depot2,225,96.697,112,0.10
+,RemoveCompilation_drive-truck1-distributor1-depot2,225,91.402,1392,1.52
+,RemoveCompilation_load-hoist0-crate2-truck1-depot0,225,66.033,145,0.14
+,RemoveCompilation_drive-truck1-depot0-distributor1,225,96.697,115,0.10
+,RemoveCompilation_drive-truck1-depot0-distributor1,225,77.708,3449,4.62
+,RemoveCompilation_unload-hoist4-crate2-truck1-distributor1,225,113.603,3093,3.74
+,RemoveCompilation_unload-hoist4-crate2-truck1-distributor1,225,112.131,45979,88.84
+,RemoveCompilation_drive-truck0-distributor1-depot0,225,96.697,112,0.18
+,RemoveCompilation_drive-truck0-distributor1-depot0,225,91.601,1232,2.28
+ReplaceCompilation,ReplaceCompilation_lift-hoist3-crate4-pallet3-distributor0-with-drive-truck1-depot0-distributor0,224,98.498,105,0.12
+ReplaceCompilation,ReplaceCompilation_lift-hoist3-crate4-pallet3-distributor0-with-drive-truck1-depot0-distributor0,224,94.403,1309,1.44
+,ReplaceCompilation_drop-hoist3-crate4-pallet9-distributor0-with-drive-truck1-depot0-depot1,224,92.729,73,0.12
+,ReplaceCompilation_drop-hoist0-crate3-pallet7-depot0-with-lift-hoist3-crate4-pallet9-distributor0,224,95.898,45,0.08
+,ReplaceCompilation_drop-hoist0-crate3-pallet7-depot0-with-lift-hoist3-crate4-pallet9-distributor0,224,92.898,405,0.44
+,ReplaceCompilation_drop-hoist0-crate3-pallet7-depot0-with-lift-hoist3-crate4-pallet9-distributor0,224,87.366,58729,144.10
+,ReplaceCompilation_load-hoist2-crate1-truck1-depot2-with-drive-truck0-depot2-distributor0,224,111.271,31,0.06
+,ReplaceCompilation_load-hoist2-crate1-truck1-depot2-with-drive-truck0-depot2-distributor0,224,105.268,286,0.24
+,ReplaceCompilation_load-hoist2-crate1-truck1-depot2-with-drive-truck0-depot2-distributor0,224,93.602,2224,3.38
+,ReplaceCompilation_load-hoist2-crate5-truck1-depot2-with-load-hoist2-crate5-truck0-depot2,224,78.205,28,0.04
+,ReplaceCompilation_drop-hoist0-crate0-pallet0-depot0-with-lift-hoist3-crate4-pallet9-distributor0,224,92.602,3,0.04
+,ReplaceCompilation_unload-hoist5-crate1-truck1-distributor2-with-lift-hoist0-crate3-pallet7-depot0,224,93.158,9,0.06
+,ReplaceCompilation_drop-hoist5-crate1-pallet5-distributor2-with-lift-hoist0-crate3-pallet7-depot0,224,97.795,8,0.04
+,ReplaceCompilation_unload-hoist0-crate0-truck0-depot0-with-lift-hoist0-crate3-pallet7-depot0,224,93.794,5,0.04
+,ReplaceCompilation_drop-hoist4-crate2-pallet4-distributor1-with-drive-truck0-depot2-depot1,224,83.005,42,0.08
+,ReplaceCompilation_drop-hoist4-crate2-pallet4-distributor1-with-drive-truck0-depot2-depot1,224,80.803,1314,1.12
+,ReplaceCompilation_drop-hoist4-crate2-pallet4-distributor1-with-drive-truck0-depot2-depot1,224,79.204,15846,21.24
+TimeWindowCompilation,TimeWindowCompilation_unload-hoist1-crate5-truck1-depot1_52_133,226,96.697,112,0.12
+TimeWindowCompilation,TimeWindowCompilation_unload-hoist1-crate5-truck1-depot1_52_133,226,79.002,1463,1.50
+,TimeWindowCompilation_load-hoist2-crate5-truck1-depot2_49_64,226,96.697,112,0.10
+,TimeWindowCompilation_unload-hoist0-crate0-truck0-depot0_26_41,226,103.267,1292,1.40
+,TimeWindowCompilation_unload-hoist0-crate0-truck0-depot0_26_41,226,101.668,59596,139.56
+,TimeWindowCompilation_drive-truck0-distributor1-depot0_7_22,226,96.697,112,0.10
+,TimeWindowCompilation_drive-truck0-distributor1-depot0_7_22,226,91.601,1919,2.33
+,TimeWindowCompilation_drop-hoist3-crate4-pallet9-distributor0_64_67,226,103.267,1297,2.98
+,TimeWindowCompilation_drop-hoist3-crate4-pallet9-distributor0_64_67,226,91.601,4151,13.08
+,TimeWindowCompilation_drive-truck0-distributor1-depot0_90_111,226,96.697,112,0.10
+,TimeWindowCompilation_drive-truck0-distributor1-depot0_90_111,226,91.601,1582,1.86
+,TimeWindowCompilation_drop-hoist4-crate2-pallet4-distributor1_1_3,plan not found
+,TimeWindowCompilation_drop-hoist0-crate3-pallet7-depot0_57_59,226,103.267,1633,1.76
+,TimeWindowCompilation_drop-hoist0-crate3-pallet7-depot0_57_59,226,91.601,4475,6.66
+,TimeWindowCompilation_lift-hoist0-crate2-pallet0-depot0_35_36,plan not found
+,TimeWindowCompilation_unload-hoist0-crate0-truck0-depot0_57_73,226,103.267,1275,1.38
+,TimeWindowCompilation_unload-hoist0-crate0-truck0-depot0_57_73,226,101.668,59579,139.00
+ReorderCompilation,ReorderCompilation_drop-hoist3-crate4-pallet9-distributor0_lift-hoist2-crate5-crate1-depot2,227,103.267,1013,1.08
+ReorderCompilation,ReorderCompilation_drop-hoist3-crate4-pallet9-distributor0_lift-hoist2-crate5-crate1-depot2,227,91.601,2961,4.26
+,ReorderCompilation_drop-hoist4-crate2-pallet4-distributor1_lift-hoist2-crate0-pallet2-depot2,227,103.267,1016,1.05
+,ReorderCompilation_drop-hoist4-crate2-pallet4-distributor1_lift-hoist2-crate0-pallet2-depot2,227,91.601,2964,4.21
+,ReorderCompilation_drive-truck1-depot2-depot1_load-hoist2-crate0-truck0-depot2,227,78.710,118,0.12
+,ReorderCompilation_drive-truck1-depot2-depot1_load-hoist2-crate0-truck0-depot2,227,71.900,18112,32.91
+,ReorderCompilation_drive-truck0-depot2-depot0_drop-hoist3-crate4-pallet9-distributor0,227,103.267,1309,1.30
+,ReorderCompilation_drive-truck0-depot2-depot0_drop-hoist3-crate4-pallet9-distributor0,227,91.601,7157,12.18
+,ReorderCompilation_unload-hoist0-crate0-truck0-depot0_drop-hoist5-crate1-pallet5-distributor2,227,110.380,5529,8.64
+,ReorderCompilation_drop-hoist5-crate1-pallet5-distributor2_lift-hoist3-crate4-pallet3-distributor0,227,103.267,1016,0.98
+,ReorderCompilation_drop-hoist5-crate1-pallet5-distributor2_lift-hoist3-crate4-pallet3-distributor0,227,91.601,2971,4.16
+,ReorderCompilation_drive-truck1-depot0-distributor1_drop-hoist0-crate3-pallet7-depot0,227,103.267,1047,1.10
+,ReorderCompilation_drive-truck1-depot0-distributor1_drop-hoist0-crate3-pallet7-depot0,227,91.601,3037,4.32
+,ReorderCompilation_lift-hoist0-crate3-pallet8-depot0_drive-truck1-depot2-distributor2,227,103.267,1036,1.05
+,ReorderCompilation_lift-hoist0-crate3-pallet8-depot0_drive-truck1-depot2-distributor2,227,91.601,2980,4.21
+,ReorderCompilation_load-hoist2-crate5-truck1-depot2_drop-hoist0-crate3-pallet7-depot0,227,103.267,1151,1.17
+,ReorderCompilation_load-hoist2-crate5-truck1-depot2_drop-hoist0-crate3-pallet7-depot0,227,91.601,3093,4.30
+,ReorderCompilation_drive-truck0-depot0-depot2_lift-hoist2-crate1-crate0-depot2,227,103.267,1519,1.68
+,ReorderCompilation_drive-truck0-depot0-depot2_lift-hoist2-crate1-crate0-depot2,227,91.601,3554,5.12
+ForceTimeWindowCompilation,ForceTimeWindowCompilation_drive-truck0-depot0-depot2_87_95,226,111.986,1189,1.38
+ForceTimeWindowCompilation,ForceTimeWindowCompilation_drive-truck0-depot0-depot2_87_95,226,103.267,3085,4.46
+ForceTimeWindowCompilation,ForceTimeWindowCompilation_drive-truck0-depot0-depot2_87_95,226,94.601,13873,26.72
+,ForceTimeWindowCompilation_lift-hoist2-crate5-crate1-depot2_13_15,226,103.267,1171,1.34
+,ForceTimeWindowCompilation_lift-hoist2-crate5-crate1-depot2_13_15,226,91.601,4013,6.16
+,ForceTimeWindowCompilation_drop-hoist3-crate4-pallet9-distributor0_53_56,226,103.267,1424,1.50
+,ForceTimeWindowCompilation_drop-hoist3-crate4-pallet9-distributor0_53_56,226,91.601,4278,6.36
+,ForceTimeWindowCompilation_unload-hoist4-crate2-truck1-distributor1_75_120,226,168.066,1309,1.44
+,ForceTimeWindowCompilation_unload-hoist4-crate2-truck1-distributor1_75_120,226,156.400,4151,6.24
+,ForceTimeWindowCompilation_load-hoist2-crate0-truck0-depot2_44_56,226,105.319,21431,40.06
+,ForceTimeWindowCompilation_load-hoist2-crate0-truck0-depot2_44_56,226,99.787,29566,56.62
+,ForceTimeWindowCompilation_unload-hoist4-crate2-truck1-distributor1_57_98,226,150.066,1309,2.02
+,ForceTimeWindowCompilation_unload-hoist4-crate2-truck1-distributor1_57_98,226,138.400,4151,8.92
+,ForceTimeWindowCompilation_load-hoist2-crate5-truck1-depot2_52_76,226,132.294,2516,2.60
+,ForceTimeWindowCompilation_load-hoist2-crate5-truck1-depot2_52_76,226,120.629,5358,7.60
+,ForceTimeWindowCompilation_drive-truck1-depot0-distributor1_67_70,226,127.124,1524,1.58
+,ForceTimeWindowCompilation_drive-truck1-depot0-distributor1_67_70,226,115.459,4366,6.38
+,ForceTimeWindowCompilation_unload-hoist1-crate5-truck1-depot1_6_95,226,103.267,2427,2.32
+,ForceTimeWindowCompilation_unload-hoist1-crate5-truck1-depot1_6_95,226,95.000,5345,7.52
+,ForceTimeWindowCompilation_unload-hoist1-crate5-truck1-depot1_6_95,226,91.601,5443,7.70
+,ForceTimeWindowCompilation_drive-truck1-depot2-distributor2_63_64,226,108.694,3039,3.60
+,ForceTimeWindowCompilation_drive-truck1-depot2-distributor2_63_64,226,79.987,4722,6.50
+ForceTimeWindowOnlyCompilation,ForceTimeWindowOnlyCompilation_drive-truck1-depot2-distributor2_55_56,227,108.694,3226,3.82
+ForceTimeWindowOnlyCompilation,ForceTimeWindowOnlyCompilation_drive-truck1-depot2-distributor2_55_56,227,77.708,4909,6.74
+,ForceTimeWindowOnlyCompilation_unload-hoist4-crate2-truck1-distributor1_20_64,227,113.066,1288,1.38
+,ForceTimeWindowOnlyCompilation_unload-hoist4-crate2-truck1-distributor1_20_64,227,101.400,4130,6.20
+,ForceTimeWindowOnlyCompilation_load-hoist2-crate0-truck0-depot2_71_93,227,105.653,682,0.72
+,ForceTimeWindowOnlyCompilation_load-hoist2-crate0-truck0-depot2_71_93,227,96.754,2734,3.94
+,ForceTimeWindowOnlyCompilation_drop-hoist4-crate2-pallet4-distributor1_13_15,227,103.267,1326,1.44
+,ForceTimeWindowOnlyCompilation_drop-hoist4-crate2-pallet4-distributor1_13_15,227,91.601,4168,6.28
+,ForceTimeWindowOnlyCompilation_unload-hoist1-crate5-truck1-depot1_15_87,227,103.267,2390,2.32
+,ForceTimeWindowOnlyCompilation_unload-hoist1-crate5-truck1-depot1_15_87,227,91.601,5232,7.34
+,ForceTimeWindowOnlyCompilation_unload-hoist5-crate1-truck1-distributor2_79_132,227,95.667,2730,2.94
+,ForceTimeWindowOnlyCompilation_lift-hoist2-crate0-pallet2-depot2_88_90,227,103.267,1294,1.54
+,ForceTimeWindowOnlyCompilation_drive-truck0-distributor1-depot0_66_93,227,178.695,1452,1.44
+,ForceTimeWindowOnlyCompilation_drive-truck0-distributor1-depot0_66_93,227,147.709,25747,51.06
+,ForceTimeWindowOnlyCompilation_drive-truck1-depot0-distributor1_27_31,227,108.694,1423,1.48
+,ForceTimeWindowOnlyCompilation_drive-truck1-depot0-distributor1_27_31,227,83.710,35119,74.04
+,ForceTimeWindowOnlyCompilation_unload-hoist1-crate5-truck1-depot1_89_157,227,159.619,2215,2.18
+,ForceTimeWindowOnlyCompilation_unload-hoist1-crate5-truck1-depot1_89_157,227,157.000,5224,7.42
+,ForceTimeWindowOnlyCompilation_unload-hoist1-crate5-truck1-depot1_89_157,227,147.954,5322,7.58
+question,name,Literals,Metric,Evaluated,Time
+,pfile3,120,98.929,7035,12.08
+AddCompilation,AddCompilation_lift-hoist0-crate5-crate4-depot0,264,204.440,27832,38.86
+AddCompilation,AddCompilation_lift-hoist0-crate5-crate4-depot0,264,190.849,37395,57.10
+AddCompilation,AddCompilation_lift-hoist0-crate5-crate4-depot0,264,190.724,37498,57.32
+AddCompilation,AddCompilation_lift-hoist0-crate5-crate4-depot0,264,168.391,42240,66.37
+AddCompilation,AddCompilation_lift-hoist0-crate5-crate4-depot0,264,150.754,75932,130.25
+,AddCompilation_drive-truck1-depot0-distributor0,138,87.179,26736,58.96
+,AddCompilation_drive-truck0-distributor0-distributor1,138,98.929,7054,12.10
+,AddCompilation_drive-truck1-distributor0-distributor0,138,98.930,7046,6.94
+,AddCompilation_lift-hoist0-crate0-pallet2-depot0,plan not found
+,AddCompilation_lift-hoist2-crate4-crate0-distributor1,264,161.097,4550,5.80
+,AddCompilation_lift-hoist2-crate4-crate0-distributor1,264,101.160,27861,30.76
+,AddCompilation_drop-hoist2-crate1-crate4-distributor1,228,101.160,17844,21.84
+,AddCompilation_load-hoist2-crate4-truck1-distributor1,156,91.179,20963,22.66
+,AddCompilation_load-hoist0-crate4-truck0-depot0,156,173.810,51472,66.62
+,AddCompilation_load-hoist0-crate4-truck0-depot0,156,165.411,53194,69.68
+,AddCompilation_load-hoist0-crate4-truck0-depot0,156,164.610,53532,70.28
+,AddCompilation_drop-hoist1-crate2-crate4-distributor0,228,107.529,10784,11.82
+,AddCompilation_drop-hoist1-crate2-crate4-distributor0,228,107.346,11461,12.82
+RemoveCompilation,RemoveCompilation_lift-hoist2-crate2-pallet2-distributor1,plan not found
+,RemoveCompilation_unload-hoist0-crate2-truck0-depot0,121,96.065,3806,5.10
+,RemoveCompilation_unload-hoist1-crate4-truck1-distributor0,121,101.429,5760,9.52
+,RemoveCompilation_lift-hoist2-crate5-crate2-distributor1,plan not found
+,RemoveCompilation_load-hoist2-crate4-truck1-distributor1,121,101.722,7370,7.34
+,RemoveCompilation_load-hoist2-crate4-truck1-distributor1,121,93.900,118955,170.96
+,RemoveCompilation_drive-truck1-distributor0-distributor1,121,111.106,7397,7.60
+,RemoveCompilation_drive-truck1-distributor0-distributor1,121,110.108,7602,7.88
+,RemoveCompilation_drive-truck1-distributor0-distributor1,121,109.865,95280,138.28
+,RemoveCompilation_drive-truck1-distributor0-distributor1,121,96.721,106175,156.28
+,RemoveCompilation_drive-truck0-distributor1-distributor0,121,98.929,7044,6.98
+,RemoveCompilation_drive-truck0-distributor0-distributor1,121,108.862,22805,27.62
+,RemoveCompilation_drive-truck0-distributor1-depot0,121,98.929,7012,6.98
+,RemoveCompilation_unload-hoist2-crate1-truck1-distributor1,121,123.179,41102,53.78
+,RemoveCompilation_unload-hoist2-crate1-truck1-distributor1,121,113.679,105060,155.75
+ReplaceCompilation,ReplaceCompilation_lift-hoist1-crate4-crate3-distributor0-with-drop-hoist0-crate1-pallet0-depot0,120,99.80600000000001,6893,10.16
+,ReplaceCompilation_lift-hoist2-crate5-crate2-distributor1-with-lift-hoist0-crate1-pallet0-depot0,120,99.80600000000001,12740,15.82
+,ReplaceCompilation_lift-hoist0-crate1-pallet0-depot0-with-lift-hoist1-crate4-crate3-distributor0,120,99.80600000000001,6844,9.60
+,ReplaceCompilation_drop-hoist2-crate5-crate0-distributor1-with-lift-hoist1-crate4-pallet1-distributor0,120,99.93,3,0.00
+,ReplaceCompilation_lift-hoist1-crate3-crate0-distributor0-with-lift-hoist0-crate2-pallet0-depot0,120,116.857,6761,6.48
+,ReplaceCompilation_lift-hoist1-crate3-crate0-distributor0-with-lift-hoist0-crate2-pallet0-depot0,120,115.85900000000001,9292,9.56
+,ReplaceCompilation_lift-hoist1-crate3-crate0-distributor0-with-lift-hoist0-crate2-pallet0-depot0,120,104.18100000000001,78143,114.18
+,ReplaceCompilation_lift-hoist1-crate3-crate0-distributor0-with-lift-hoist0-crate2-pallet0-depot0,120,96.973,109292,153.36
+,ReplaceCompilation_drop-hoist0-crate2-pallet0-depot0-with-load-hoist0-crate2-truck0-depot0,120,112.756,12978,13.58
+,ReplaceCompilation_lift-hoist2-crate2-pallet2-distributor1-with-drive-truck0-distributor1-distributor0,120,150.028,21831,24.50
+,ReplaceCompilation_drive-truck0-distributor1-distributor0-with-drive-truck0-distributor1-depot0,120,103.012,4724,3.68
+,ReplaceCompilation_load-hoist2-crate2-truck0-distributor1-with-drop-hoist2-crate2-pallet2-distributor1,120,151.153,27332,34.24
+,ReplaceCompilation_drive-truck0-depot0-distributor1-with-lift-hoist2-crate5-crate2-distributor1,120,99.93,6924,6.88
+TimeWindowCompilation,TimeWindowCompilation_unload-hoist2-crate0-truck0-distributor1_0_34,122,134.314,43995,105.46
+TimeWindowCompilation,TimeWindowCompilation_unload-hoist2-crate0-truck0-distributor1_0_34,122,132.889,48030,117.96
+TimeWindowCompilation,TimeWindowCompilation_unload-hoist2-crate0-truck0-distributor1_0_34,122,108.238,128343,342.06
+,TimeWindowCompilation_lift-hoist1-crate3-crate0-distributor0_0_3,plan not found
+,TimeWindowCompilation_load-hoist2-crate2-truck0-distributor1_0_44,122,98.929,14149,14.92
+,TimeWindowCompilation_drop-hoist2-crate0-crate1-distributor1_0_2,plan not found
+,TimeWindowCompilation_drive-truck0-distributor1-distributor0_0_4,122,98.929,18248,19.64
+,TimeWindowCompilation_lift-hoist1-crate0-pallet1-distributor0_0_1,plan not found
+,TimeWindowCompilation_lift~hoist2~crate2~pallet2~distributor1_27_28,122,98.929,19999,25.44
+,TimeWindowCompilation_unload-hoist1-crate4-truck1-distributor0_0_2,122,101.429,14228,15.04
+,TimeWindowCompilation_drop-hoist0-crate3-crate2-depot0_0_3,plan not found
+,TimeWindowCompilation_drive-truck0-depot0-distributor1_0_1,122,133.980,40382,49.62
+ReorderCompilation,ReorderCompilation_drop-hoist2-crate1-pallet2-distributor1_drive-truck1-depot0-distributor0,123,97.104,12156,20.34
+,ReorderCompilation_drop-hoist0-crate3-crate2-depot0_drive-truck1-depot0-distributor0,123,104.179,13559,23.56
+,ReorderCompilation_drop-hoist0-crate3-crate2-depot0_drive-truck1-depot0-distributor0,123,96.065,60609,133.48
+,ReorderCompilation_load-hoist0-crate1-truck1-depot0_drive-truck1-distributor0-depot0,123,87.179,26805,32.16
+,ReorderCompilation_unload-hoist1-crate5-truck0-distributor0_drive-truck1-distributor1-distributor0,123,98.929,6073,5.88
+,ReorderCompilation_unload-hoist1-crate5-truck0-distributor0_drive-truck1-distributor1-distributor0,123,77.709,18151,20.37
+,ReorderCompilation_lift-hoist0-crate1-pallet0-depot0_unload-hoist1-crate5-truck0-distributor0,123,98.929,7104,7.04
+,ReorderCompilation_unload-hoist1-crate4-truck1-distributor0_lift-hoist0-crate1-pallet0-depot0,123,143.826,143048,207.92
+,ReorderCompilation_unload-hoist1-crate4-truck1-distributor0_lift-hoist0-crate1-pallet0-depot0,123,143.574,155812,233.94
+,ReorderCompilation_load-hoist2-crate5-truck0-distributor1_unload-hoist2-crate4-truck1-distributor1,123,98.929,7072,6.96
+,ReorderCompilation_unload-hoist0-crate3-truck1-depot0_drive-truck1-distributor1-depot0,123,98.504,8943,8.96
+,ReorderCompilation_unload-hoist0-crate3-truck1-depot0_drive-truck1-distributor1-depot0,123,96.877,144840,211.94
+,ReorderCompilation_lift-hoist1-crate0-pallet1-distributor0_drive-truck1-depot0-distributor1,123,98.929,10791,11.28
+,ReorderCompilation_unload-hoist0-crate2-truck0-depot0_drop-hoist0-crate2-pallet0-depot0,123,98.929,7198,7.08
+ForceTimeWindowCompilation,ForceTimeWindowCompilation_drive-truck0-distributor0-distributor1_0_1,122,98.929,13157,24.48
+,ForceTimeWindowCompilation_lift-hoist1-crate3-crate0-distributor0_0_2,plan not found
+,ForceTimeWindowCompilation_load-hoist1-crate4-truck1-distributor0_0_1,plan not found
+,ForceTimeWindowCompilation_unload-hoist1-crate5-truck0-distributor0_0_24,122,154.320,112394,154.56
+,ForceTimeWindowCompilation_unload-hoist1-crate5-truck0-distributor0_0_24,122,153.110,133076,193.56
+,ForceTimeWindowCompilation_unload-hoist1-crate5-truck0-distributor0_0_24,122,152.112,138623,204.46
+,ForceTimeWindowCompilation_drive-truck0-depot0-distributor1_0_1,122,98.929,12979,13.80
+,ForceTimeWindowCompilation_load-hoist2-crate5-truck0-distributor1_0_21,122,98.929,22017,19.21
+,ForceTimeWindowCompilation_drive~truck0~distributor0~distributor1_13_14,122,121.136,52580,66.68
+,ForceTimeWindowCompilation_drive~truck0~distributor0~distributor1_13_14,122,114.604,59640,78.98
+,ForceTimeWindowCompilation_load-hoist0-crate1-truck1-depot0_11_63,122,108.804,12993,13.18
+,ForceTimeWindowCompilation_lift~hoist0~crate1~pallet0~depot0_18_20,122,151.979,31604,42.54
+,ForceTimeWindowCompilation_unload-hoist0-crate2-truck0-depot0_14_67,122,98.929,16790,17.21
+ForceTimeWindowOnlyCompilation,ForceTimeWindowOnlyCompilation_drive~truck1~distributor1~depot0_56_56,123,153.929,8145,9.89
+,ForceTimeWindowOnlyCompilation_drive-truck1-distributor0-depot0_0_2,123,98.929,10835,19.32
+,ForceTimeWindowOnlyCompilation_drive-truck0-distributor0-distributor1_0_1,123,108.862,39823,90.30
+,ForceTimeWindowOnlyCompilation_unload~hoist2~crate1~truck1~distributor1_76_102,123,196.615,33776,52.22
+,ForceTimeWindowOnlyCompilation_drive~truck0~distributor0~distributor1_0_1,123,108.862,39823,52.04
+,ForceTimeWindowOnlyCompilation_load~hoist2~crate4~truck1~distributor1_6_7,123,148.615,33913,44.24
+,ForceTimeWindowOnlyCompilation_load~hoist0~crate1~truck1~depot0_61_117,123,158.804,12993,15.12
+,ForceTimeWindowOnlyCompilation_drive~truck0~distributor0~distributor1_57_58,123,130.054,43169,56.44
+,ForceTimeWindowOnlyCompilation_unload-hoist1-crate5-truck0-distributor0_0_35,123,107.529,17948,20.90
+,ForceTimeWindowOnlyCompilation_unload-hoist1-crate5-truck0-distributor0_0_35,123,107.346,19204,22.82
+,ForceTimeWindowOnlyCompilation_drive~truck1~distributor0~depot0_33_35,123,131.929,12321,13.80

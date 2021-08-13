@@ -1,0 +1,246 @@
+zenotravel second test
+name,Literals,Metric,Evaluated,Time,Iteration
+pfile10,100,699.005,3372,3.54,
+TimeWindowCompilation_refuel-plane2-city0-fl0-fl1_564_791,102,939.004,92942,153.08,1
+TimeWindowCompilation_refuel-plane2-city0-fl0-fl1_564_791,102,902.006,126599,237.22,1
+ReorderCompilation_zoom-plane3-city2-city0-fl2-fl1-fl0_debark-person1-plane3-city1,105,699.005,3743,4.28,2
+ForceTimeWindowOnlyCompilation_board-person1-plane1-city3_290_332,108,1219.005,53608,91.64,3
+ForceTimeWindowOnlyCompilation_board-person1-plane1-city3_290_332,108,1182.007,68404,128.88,3
+RemoveCompilation_zoom-plane2-city4-city0-fl5-fl4-fl3,109,916.004,36337,49.16,4
+RemoveCompilation_zoom-plane2-city4-city0-fl5-fl4-fl3,109,730.000,51617,74.24,4
+RemoveCompilation_zoom-plane2-city4-city0-fl5-fl4-fl3,109,713.004,54669,80.22,4
+RemoveCompilation_zoom-plane2-city4-city0-fl5-fl4-fl3,109,713.003,56720,84.18,4
+RemoveCompilation_refuel-plane3-city4-fl0-fl1,110,1482.008,12019,13.16,5
+RemoveCompilation_debark-person7-plane3-city4,111,956.005,42078,61.80,6
+RemoveCompilation_debark-person7-plane3-city4,111,949.006,65072,100.08,6
+ForceTimeWindowCompilation_zoom-plane2-city4-city1-fl5-fl4-fl3_225_452,113,1209.006,62473,89.28,7
+ForceTimeWindowCompilation_zoom-plane2-city4-city1-fl5-fl4-fl3_225_452,113,1202.007,82784,128.82,7
+ForceTimeWindowCompilation_board-person4-plane2-city4_237_281,115,1223.004,76296,110.70,8
+TimeWindowCompilation_fly-plane2-city0-city1-fl2-fl1_482_946,117,1233.004,80238,116.48,9
+ReorderCompilation_debark-person5-plane2-city0_fly-plane3-city2-city3-fl2-fl1,plan not found
+Problem: pfile10 Iteration: 11: compilation problem,compilation error
+Problem: pfile10 Iteration: 12: compilation problem,compilation error
+name,Literals,Metric,Evaluated,Time,Iteration
+pfile11,102,1141.012,14181,21.54,
+pfile11,102,763.002,29165,33.84,
+ForceTimeWindowCompilation_refuel~plane1~city1~fl2~fl3_486_668,104,836.005,80508,122.56,1
+ReorderCompilation_refuel~plane2~city2~fl0~fl1_fly~plane2~city0~city2~fl1~fl0,107,1089.006,117626,210.92,2
+RemoveCompilation_fly~plane2~city5~city0~fl1~fl0,108,1419.007,118068,212.44,3
+TimeWindowCompilation_debark~person2~plane3~city1_1305_1424,110,1429.007,103677,172.04,4
+TimeWindowCompilation_zoom~plane1~city0~city1~fl2~fl1~fl0_153_395,112,1509.007,90214,142.80,5
+TimeWindowCompilation_zoom~plane1~city0~city1~fl2~fl1~fl0_153_395,112,1472.009,90453,143.44,5
+TimeWindowCompilation_zoom~plane1~city0~city1~fl2~fl1~fl0_153_395,112,1465.000,102960,176.98,5
+TimeWindowCompilation_zoom~plane1~city0~city1~fl2~fl1~fl0_153_395,112,1429.007,144214,299.01,5
+ForceTimeWindowOnlyCompilation_board~person2~plane3~city2_256_294,115,1515.000,34821,44.30,6
+ForceTimeWindowOnlyCompilation_board~person2~plane3~city2_256_294,115,1335.000,56693,75.36,6
+TimeWindowCompilation_zoom~plane3~city1~city2~fl5~fl4~fl3_620_968,plan not found
+Problem: pfile11 Iteration: 8: compilation problem,compilation error
+Problem: pfile11 Iteration: 9: compilation problem,compilation error
+Problem: pfile11 Iteration: 10: compilation problem,compilation error
+Problem: pfile11 Iteration: 11: compilation problem,compilation error
+Problem: pfile11 Iteration: 12: compilation problem,compilation error
+name,Literals,Metric,Evaluated,Time,Iteration
+pfile12,111,796.004,3573,4.69,
+pfile12,111,660.001,13466,19.24,
+ForceTimeWindowCompilation_debark~person5~plane1~city4_432_511,113,672.000,24331,41.22,1
+TimeWindowCompilation_zoom~plane3~city5~city3~fl2~fl1~fl0_12_214,115,950.000,21461,29.12,2
+TimeWindowCompilation_zoom~plane3~city5~city3~fl2~fl1~fl0_12_214,115,913.002,96979,245.22,2
+ReorderCompilation_board~person6~plane1~city2_fly~plane3~city0~city0~fl1~fl0,118,950.000,22541,30.78,3
+ForceTimeWindowCompilation_debark~person3~plane2~city1_835_911,120,1199.006,122965,286.42,4
+TimeWindowCompilation_zoom~plane2~city3~city1~fl6~fl5~fl4_808_1149,plan not found
+Problem: pfile12 Iteration: 6: compilation problem,compilation error
+Problem: pfile12 Iteration: 7: compilation problem,compilation error
+Problem: pfile12 Iteration: 8: compilation problem,compilation error
+Problem: pfile12 Iteration: 9: compilation problem,compilation error
+Problem: pfile12 Iteration: 10: compilation problem,compilation error
+Problem: pfile12 Iteration: 11: compilation problem,compilation error
+Problem: pfile12 Iteration: 12: compilation problem,compilation error
+name,Literals,Metric,Evaluated,Time,Iteration
+pfile3,40,393.003,93,0.02,
+pfile3,40,280.000,433,0.10,
+RemoveCompilation_fly-plane2-city2-city2-fl5-fl4,41,393.003,93,0.02,1
+RemoveCompilation_fly-plane2-city2-city2-fl5-fl4,41,280.000,682,0.16,1
+ReorderCompilation_refuel-plane2-city2-fl5-fl6_refuel-plane2-city2-fl5-fl6,43,393.003,93,0.02,2
+ReorderCompilation_refuel-plane2-city2-fl5-fl6_refuel-plane2-city2-fl5-fl6,43,280.000,509,0.14,2
+TimeWindowCompilation_zoom-plane1-city1-city0-fl2-fl1-fl0_155_458,45,393.003,85,0.02,3
+TimeWindowCompilation_zoom-plane1-city1-city0-fl2-fl1-fl0_155_458,45,360.000,872,0.22,3
+TimeWindowCompilation_zoom-plane1-city1-city0-fl2-fl1-fl0_155_458,45,285.000,1108,0.32,3
+ForceTimeWindowOnlyCompilation_debark-person3-plane1-city0_282_329,48,312.000,1174,0.32,4
+RemoveCompilation_board-person1-plane1-city0,49,430.001,83521,30.88,5
+TimeWindowCompilation_zoom-plane2-city2-city0-fl5-fl4-fl3_338_616,51,430.000,99601,39.00,6
+TimeWindowCompilation_debark-person1-plane2-city1_349_447,54,479.000,85159,31.84,7
+TimeWindowCompilation_board-person3-plane1-city1_11_43,plan not found
+Problem: pfile3 Iteration: 9: compilation problem,compilation error
+Problem: pfile3 Iteration: 10: compilation problem,compilation error
+Problem: pfile3 Iteration: 11: compilation problem,compilation error
+Problem: pfile3 Iteration: 12: compilation problem,compilation error
+name,Literals,Metric,Evaluated,Time,Iteration
+pfile4,45,522.005,310,0.10,
+ReorderCompilation_zoom-plane1-city1-city0-fl2-fl1-fl0_zoom-plane2-city2-city1-fl2-fl1-fl0,48,549.003,1763,0.54,1
+ReorderCompilation_zoom-plane1-city1-city0-fl2-fl1-fl0_zoom-plane2-city2-city1-fl2-fl1-fl0,48,529.004,6381,2.62,1
+ReorderCompilation_zoom-plane1-city1-city0-fl2-fl1-fl0_zoom-plane2-city2-city1-fl2-fl1-fl0,48,522.005,178103,140.22,1
+ReorderCompilation_board-person2-plane1-city1_debark-person2-plane2-city2,51,720.001,107298,103.12,2
+ReorderCompilation_board-person2-plane1-city1_debark-person2-plane2-city2,51,683.003,107330,103.14,2
+ReorderCompilation_board-person2-plane1-city1_debark-person2-plane2-city2,51,549.003,115952,109.06,2
+ReorderCompilation_board-person2-plane1-city1_debark-person2-plane2-city2,51,529.004,119484,111.28,2
+RemoveCompilation_zoom-plane2-city1-city2-fl2-fl1-fl0,52,720.001,95878,88.96,3
+RemoveCompilation_zoom-plane2-city1-city2-fl2-fl1-fl0,52,683.003,95910,88.98,3
+RemoveCompilation_zoom-plane2-city1-city2-fl2-fl1-fl0,52,629.003,104526,94.86,3
+RemoveCompilation_zoom-plane2-city1-city2-fl2-fl1-fl0,52,602.005,104788,95.06,3
+RemoveCompilation_zoom-plane2-city1-city2-fl2-fl1-fl0,52,580.003,116944,103.04,3
+RemoveCompilation_zoom-plane2-city1-city2-fl2-fl1-fl0,52,536.003,127601,110.20,3
+RemoveCompilation_zoom-plane2-city1-city2-fl2-fl1-fl0,52,529.004,127977,110.48,3
+RemoveCompilation_refuel-plane2-city0-fl1-fl2,53,720.001,95878,89.28,4
+RemoveCompilation_refuel-plane2-city0-fl1-fl2,53,683.003,95910,89.30,4
+RemoveCompilation_refuel-plane2-city0-fl1-fl2,53,629.003,104337,95.08,4
+RemoveCompilation_refuel-plane2-city0-fl1-fl2,53,602.005,104599,95.26,4
+RemoveCompilation_refuel-plane2-city0-fl1-fl2,53,580.003,116220,102.96,4
+RemoveCompilation_refuel-plane2-city0-fl1-fl2,53,536.003,127025,110.28,4
+ReorderCompilation_zoom-plane1-city2-city0-fl2-fl1-fl0_fly-plane2-city2-city0-fl1-fl0,56,720.001,95617,89.22,5
+ReorderCompilation_zoom-plane1-city2-city0-fl2-fl1-fl0_fly-plane2-city2-city0-fl1-fl0,56,629.003,104417,95.30,5
+ReorderCompilation_zoom-plane1-city2-city0-fl2-fl1-fl0_fly-plane2-city2-city0-fl1-fl0,56,602.005,104679,95.48,5
+ReorderCompilation_zoom-plane1-city2-city0-fl2-fl1-fl0_fly-plane2-city2-city0-fl1-fl0,56,580.003,116570,103.42,5
+ReorderCompilation_zoom-plane1-city2-city0-fl2-fl1-fl0_fly-plane2-city2-city0-fl1-fl0,56,556.002,151991,128.50,5
+ReorderCompilation_zoom-plane1-city2-city0-fl2-fl1-fl0_fly-plane2-city2-city0-fl1-fl0,56,549.003,205721,169.66,5
+ReorderCompilation_zoom-plane1-city2-city0-fl2-fl1-fl0_fly-plane2-city2-city0-fl1-fl0,56,542.004,272447,237.54,5
+ReorderCompilation_zoom-plane1-city2-city0-fl2-fl1-fl0_fly-plane2-city2-city0-fl1-fl0,56,536.003,294236,258.62,5
+RemoveCompilation_fly-plane2-city2-city1-fl1-fl0,57,720.001,95470,89.60,6
+RemoveCompilation_fly-plane2-city2-city1-fl1-fl0,57,629.003,104191,95.68,6
+RemoveCompilation_fly-plane2-city2-city1-fl1-fl0,57,602.005,104453,95.86,6
+RemoveCompilation_fly-plane2-city2-city1-fl1-fl0,57,580.003,116310,103.84,6
+RemoveCompilation_fly-plane2-city2-city1-fl1-fl0,57,529.004,150891,128.50,6
+RemoveCompilation_debark-person4-plane2-city1,58,720.001,95458,89.42,7
+RemoveCompilation_debark-person4-plane2-city1,58,629.003,104179,95.50,7
+RemoveCompilation_debark-person4-plane2-city1,58,602.005,104441,95.68,7
+RemoveCompilation_debark-person4-plane2-city1,58,580.003,116269,103.62,7
+RemoveCompilation_fly-plane1-city0-city1-fl3-fl2,59,973.003,9105,4.52,8
+RemoveCompilation_fly-plane1-city0-city1-fl3-fl2,59,936.005,9134,4.54,8
+ForceTimeWindowCompilation_fly-plane1-city2-city0-fl2-fl1_554_1202,61,756.003,2056,0.82,9
+RemoveCompilation_refuel-plane2-city2-fl1-fl2,62,756.003,575,0.22,10
+TimeWindowCompilation_refuel-plane1-city2-fl5-fl6_24_243,64,986.006,22705,10.16,11
+ReorderCompilation_refuel-plane2-city2-fl0-fl1_refuel-plane1-city1-fl1-fl2,67,1753.004,54250,33.16,12
+ReorderCompilation_refuel-plane2-city2-fl0-fl1_refuel-plane1-city1-fl1-fl2,67,1473.004,104460,76.12,12
+name,Literals,Metric,Evaluated,Time,Iteration
+pfile5,46,400.000,65,0.02,
+ForceTimeWindowOnlyCompilation_refuel-plane2-city2-fl0-fl1_238_393,49,400.000,314,0.12,1
+AddCompilation_board-person2-plane1-city1,81,673.003,840,0.44,2
+AddCompilation_board-person2-plane1-city1,81,666.004,4885,3.44,2
+ReorderCompilation_debark-person1-plane1-city2_debark-person4-plane1-city3,84,949.005,13190,10.42,3
+ReorderCompilation_debark-person1-plane1-city2_debark-person4-plane1-city3,84,816.005,97591,105.44,3
+TimeWindowCompilation_fly-plane2-city2-city2-fl2-fl1_646_1159,86,949.005,22109,19.28,4
+TimeWindowCompilation_fly-plane2-city2-city2-fl2-fl1_646_1159,86,816.005,137144,159.52,4
+RemoveCompilation_zoom-plane1-city1-city0-fl6-fl5-fl4,87,933.002,11041,6.96,5
+RemoveCompilation_zoom-plane1-city1-city0-fl6-fl5-fl4,87,896.004,12017,7.72,5
+TimeWindowCompilation_refuel-plane2-city0-fl0-fl1_338_478,90,933.002,39111,31.48,6
+TimeWindowCompilation_refuel-plane2-city0-fl0-fl1_338_478,90,896.004,44933,37.38,6
+ForceTimeWindowCompilation_debark-person3-plane1-city3_397_493,92,1236.004,33150,25.94,7
+ForceTimeWindowCompilation_debark-person3-plane1-city3_397_493,92,1199.006,35730,28.96,7
+RemoveCompilation_board-person3-plane1-city0,92,1236.004,33150,26.00,8
+RemoveCompilation_board-person3-plane1-city0,92,1199.006,35730,29.04,8
+AddCompilation_fly-plane2-city2-city3-fl4-fl3,236,1300.005,10901,8.12,9
+AddCompilation_fly-plane2-city2-city3-fl4-fl3,236,1263.007,13402,11.12,9
+AddCompilation_fly-plane2-city2-city3-fl4-fl3,236,1259.005,53151,63.10,9
+AddCompilation_fly-plane2-city2-city3-fl4-fl3,236,1252.006,55727,66.51,9
+AddCompilation_fly-plane2-city2-city3-fl4-fl3,236,1206.003,58714,70.48,9
+AddCompilation_fly-plane2-city2-city3-fl4-fl3,236,1179.005,62946,76.12,9
+TimeWindowCompilation_zoom-plane1-city3-city0-fl4-fl3-fl2_1120_1315,238,1300.005,87298,76.96,10
+TimeWindowCompilation_zoom-plane1-city3-city0-fl4-fl3-fl2_1120_1315,238,1263.007,90175,80.66,10
+TimeWindowCompilation_zoom-plane1-city3-city0-fl4-fl3-fl2_1120_1315,238,1259.005,134776,142.16,10
+TimeWindowCompilation_zoom-plane1-city3-city0-fl4-fl3-fl2_1120_1315,238,1252.006,137886,146.38,10
+TimeWindowCompilation_zoom-plane1-city3-city0-fl4-fl3-fl2_1120_1315,238,1206.003,141455,151.16,10
+TimeWindowCompilation_zoom-plane1-city3-city0-fl4-fl3-fl2_1120_1315,238,1179.005,146566,158.10,10
+RemoveCompilation_board-person2-plane1-city1,238,906.004,12180,10.06,11
+RemoveCompilation_board-person2-plane1-city1,238,876.005,88317,106.24,11
+RemoveCompilation_board-person2-plane1-city1,238,869.006,180846,249.08,11
+AddCompilation_debark-person3-plane1-city2,268,876.005,8816,6.96,12
+AddCompilation_debark-person3-plane1-city2,268,869.006,30269,30.28,12
+name,Literals,Metric,Evaluated,Time,Iteration
+pfile6,52,443.002,64,0.06,
+ForceTimeWindowCompilation_zoom-plane1-city2-city0-fl5-fl4-fl3_340_679,54,746.004,2760,1.72,1
+ReorderCompilation_board-person5-plane1-city2_fly-plane2-city3-city0-fl3-fl2,57,746.004,4192,2.56,2
+TimeWindowCompilation_zoom-plane2-city0-city1-fl2-fl1-fl0_344_501,60,849.005,5339,3.38,3
+TimeWindowCompilation_zoom-plane2-city0-city1-fl2-fl1-fl0_344_501,60,842.006,17230,15.88,3
+TimeWindowCompilation_zoom-plane2-city0-city1-fl2-fl1-fl0_344_501,60,826.004,39712,41.74,3
+TimeWindowCompilation_zoom-plane2-city0-city1-fl2-fl1-fl0_344_501,60,823.002,134595,169.90,3
+TimeWindowCompilation_zoom-plane2-city0-city1-fl2-fl1-fl0_344_501,60,822.007,203043,269.26,3
+TimeWindowCompilation_refuel-plane2-city3-fl1-fl2_695_845,62,800.000,2236,1.30,4
+TimeWindowCompilation_refuel-plane2-city3-fl1-fl2_695_845,62,763.003,37305,35.04,4
+TimeWindowCompilation_refuel-plane2-city3-fl1-fl2_695_845,62,763.002,53901,52.94,4
+TimeWindowCompilation_board-person1-plane1-city1_273_322,64,800.000,2299,1.32,5
+TimeWindowCompilation_board-person1-plane1-city1_273_322,64,763.003,36518,34.14,5
+TimeWindowCompilation_board-person1-plane1-city1_273_322,64,763.002,38753,36.78,5
+RemoveCompilation_zoom-plane1-city0-city1-fl3-fl2-fl1,65,800.000,2236,1.28,6
+TimeWindowCompilation_board-person4-plane2-city1_18_94,67,780.001,4819,2.66,7
+TimeWindowCompilation_fly-plane2-city0-city1-fl2-fl1_181_555,69,800.000,3901,1.88,8
+AddCompilation_board-person4-plane1-city0,108,1000.003,18365,12.92,9
+ReorderCompilation_board-person2-plane1-city0_board-person4-plane1-city0,109,800.000,6424,3.42,10
+TimeWindowCompilation_board-person5-plane1-city2_91_157,111,800.000,5011,2.50,11
+AddCompilation_board-person4-plane1-city2,111,1110.001,10082,6.16,12
+AddCompilation_board-person4-plane1-city2,111,1053.002,15472,11.90,12
+name,Literals,Metric,Evaluated,Time,Iteration
+pfile7,58,1157.013,1932,1.17,
+pfile7,58,746.002,3885,1.96,
+pfile7,58,709.004,15246,10.36,
+RemoveCompilation_zoom-plane2-city2-city1-fl2-fl1-fl0,59,746.002,3880,1.98,1
+TimeWindowCompilation_fly-plane1-city0-city2-fl1-fl0_745_1412,61,1023.002,7560,3.54,2
+TimeWindowCompilation_refuel-plane2-city1-fl2-fl3_202_469,63,1023.002,9344,4.52,3
+ReorderCompilation_fly-plane1-city2-city0-fl2-fl1_board-person6-plane2-city1,66,875.001,8752,4.06,4
+RemoveCompilation_board-person1-plane2-city3,67,1235.008,14490,9.02,5
+RemoveCompilation_board-person1-plane2-city3,67,1228.009,72053,75.50,5
+RemoveCompilation_refuel-plane2-city3-fl2-fl3,68,1235.008,18359,12.14,6
+RemoveCompilation_refuel-plane2-city3-fl2-fl3,68,1228.009,47342,44.80,6
+ForceTimeWindowOnlyCompilation_debark-person5-plane2-city2_1041_1101,71,1251.000,19977,13.70,7
+ForceTimeWindowOnlyCompilation_debark-person5-plane2-city2_1041_1101,71,1242.007,20104,13.84,7
+ForceTimeWindowOnlyCompilation_debark-person5-plane2-city2_1041_1101,71,1235.008,27909,22.36,7
+ForceTimeWindowOnlyCompilation_debark-person5-plane2-city2_1041_1101,71,1222.008,32467,27.38,7
+ForceTimeWindowOnlyCompilation_debark-person5-plane2-city2_1041_1101,71,1215.009,47023,44.40,7
+ForceTimeWindowOnlyCompilation_debark-person5-plane2-city2_1041_1101,71,1171.000,155166,189.80,7
+ForceTimeWindowCompilation_debark-person6-plane1-city3_794_855,73,1277.003,22057,11.92,8
+ForceTimeWindowCompilation_debark-person6-plane1-city3_794_855,73,1270.004,22236,12.10,8
+ForceTimeWindowCompilation_debark-person6-plane1-city3_794_855,73,1251.000,57113,56.22,8
+TimeWindowCompilation_refuel-plane2-city3-fl1-fl2_68_285,75,1350.004,33966,22.14,9
+TimeWindowCompilation_refuel-plane2-city3-fl1-fl2_68_285,75,1343.005,34145,22.32,9
+TimeWindowCompilation_refuel-plane2-city3-fl1-fl2_68_285,75,1277.003,69972,69.40,9
+RemoveCompilation_fly-plane2-city3-city2-fl1-fl0,76,1277.003,188907,250.22,10
+RemoveCompilation_fly-plane2-city3-city2-fl1-fl0,76,1270.004,189086,250.46,10
+TimeWindowCompilation_fly-plane1-city2-city3-fl1-fl0_913_1251,78,1500.004,49779,38.25,11
+TimeWindowCompilation_fly-plane1-city2-city3-fl1-fl0_913_1251,78,1493.005,62331,52.60,11
+TimeWindowCompilation_fly-plane1-city2-city3-fl1-fl0_913_1251,78,1473.006,164929,208.32,11
+RemoveCompilation_zoom-plane1-city3-city2-fl2-fl1-fl0,79,1507.003,41973,29.38,12
+name,Literals,Metric,Evaluated,Time,Iteration
+pfile8,84,1284.014,22180,23.84,
+pfile8,84,863.003,55328,53.78,
+ForceTimeWindowOnlyCompilation_board-person6-plane1-city4_143_208,87,583.002,8362,5.84,1
+ForceTimeWindowOnlyCompilation_board-person6-plane1-city4_143_208,87,576.003,128533,223.96,1
+TimeWindowCompilation_zoom-plane3-city1-city0-fl2-fl1-fl0_553_878,89,583.002,12549,9.22,2
+ForceTimeWindowCompilation_board-person3-plane3-city2_174_231,91,583.002,10641,7.66,3
+ForceTimeWindowCompilation_fly-plane2-city3-city0-fl1-fl0_504_1080,93,926.002,1782,1.38,4
+ForceTimeWindowCompilation_fly-plane2-city3-city0-fl1-fl0_504_1080,93,889.004,1826,1.44,4
+TimeWindowCompilation_refuel-plane1-city0-fl1-fl2_273_478,95,926.002,1634,1.24,5
+TimeWindowCompilation_refuel-plane1-city0-fl1-fl2_273_478,95,919.003,1678,1.30,5
+AddCompilation_board-person6-plane2-city0,185,964.002,4631,4.00,6
+AddCompilation_board-person6-plane2-city0,185,903.005,92703,185.00,6
+TimeWindowCompilation_refuel-plane2-city3-fl0-fl1_26_245,187,964.002,12383,14.38,7
+TimeWindowCompilation_refuel-plane2-city3-fl0-fl1_26_245,187,884.002,117877,241.30,7
+TimeWindowCompilation_debark-person6-plane2-city0_816_875,189,1076.001,11530,13.16,8
+ReorderCompilation_fly-plane3-city0-city2-fl1-fl0_board-person1-plane3-city1,191,1076.001,11681,13.52,9
+RemoveCompilation_board-person6-plane3-city0,191,1076.001,11681,13.52,10
+TimeWindowCompilation_debark-person6-plane1-city0_892_1006,193,1076.001,14788,17.68,11
+TimeWindowCompilation_zoom-plane1-city0-city4-fl6-fl5-fl4_1018_1257,195,1140.005,109253,242.38,12
+name,Literals,Metric,Evaluated,Time,Iteration
+pfile9,92,868.009,403,0.36,
+AddCompilation_fly~plane2~city3~city4~fl4~fl3,542,768.008,643,0.56,1
+ForceTimeWindowCompilation_refuel~plane1~city1~fl1~fl2_613_869,544,1096.001,72059,163.39,2
+ForceTimeWindowCompilation_refuel~plane1~city1~fl1~fl2_613_869,544,1042.007,81454,187.04,2
+ReorderCompilation_refuel~plane3~city1~fl0~fl1_fly~plane3~city3~city4~fl1~fl0,546,1841.011,81181,212.66,3
+AddCompilation_zoom~plane2~city0~city3~fl4~fl3~fl2,921,1575.007,5821,6.22,4
+AddCompilation_zoom~plane2~city0~city3~fl4~fl3~fl2,921,1568.008,43383,91.86,4
+ReorderCompilation_board~person6~plane1~city3_refuel~plane2~city2~fl2~fl3,924,1575.007,48489,75.48,5
+ReorderCompilation_board~person6~plane1~city3_refuel~plane2~city2~fl2~fl3,924,1568.008,101982,210.16,5
+TimeWindowCompilation_refuel~plane1~city3~fl0~fl1_300_507,927,1278.010,14609,15.26,6
+ForceTimeWindowOnlyCompilation_zoom~plane1~city0~city1~fl3~fl2~fl1_321_597,930,1278.010,16033,17.71,7
+ReorderCompilation_refuel~plane1~city0~fl0~fl1_board~person5~plane2~city4,933,1295.009,21980,30.64,8
+TimeWindowCompilation_fly~plane1~city0~city3~fl1~fl0_722_1024,935,1612.005,103767,185.80,9
+RemoveCompilation_fly~plane1~city0~city3~fl2~fl1,935,1612.005,103468,186.40,10
+TimeWindowCompilation_refuel~plane1~city4~fl0~fl1_752_870,plan not found
+Problem: pfile9 Iteration: 12: compilation problem,compilation error

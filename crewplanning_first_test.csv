@@ -1,0 +1,316 @@
+crewplanning first test
+question,name,Literals,Metric,Evaluated,Time
+,pfile1,30,1440.000,19,0.00
+AddCompilation,AddCompilation_remove_sleep_station-rpcm1-c1,31,1440.000,19,0.00
+,AddCompilation_medical_conference-mcs1-c1-d2,33,1695.002,108,0.02
+,AddCompilation_assemble_sleep_station-rpcm1-c1,31,1440.000,19,0.00
+,AddCompilation_finish_rpcm-rpcm1-c1-d0,33,1440.000,16,0.00
+,AddCompilation_change_filter-spaceshipfilter-c1-d2,33,1695.002,108,0.08
+,AddCompilation_sleep-c1-d2,32,2355.004,126,0.04
+,AddCompilation_post_sleep-c1-d1-d2,32,1635.001,107,0.02
+,AddCompilation_initialize_day-d1-d2,31,1440.000,19,0.00
+,AddCompilation_change_filter-spaceshipfilter-c1-d0,33,1455.009,16,0.00
+,AddCompilation_change_filter-spaceshipfilter-c1-d0,33,1440.000,121,0.02
+,AddCompilation_medical_conference-mcs1-c1-d0,33,1455.009,16,0.00
+,AddCompilation_medical_conference-mcs1-c1-d0,33,1440.000,121,0.02
+RemoveCompilation,RemoveCompilation_post_sleep-c1-d0-d1,plan not found
+,RemoveCompilation_remove_sleep_station-rpcm1-c1,plan not found
+,RemoveCompilation_second_reconfigurate_thermal_loops-rpcm1-c1,plan not found
+,RemoveCompilation_assemble_sleep_station-rpcm1-c1,plan not found
+,RemoveCompilation_exercise-c1-d1-e1,plan not found
+,RemoveCompilation_replace_rpcm-rpcm1-c1,plan not found
+,RemoveCompilation_finish_rpcm-rpcm1-c1-d1,plan not found
+,RemoveCompilation_change_filter-spaceshipfilter-c1-d1,plan not found
+,RemoveCompilation_first_reconfigurate_thermal_loops-rpcm1-c1,plan not found
+,RemoveCompilation_have_meal-c1-d1,plan not found
+ReplaceCompilation,ReplaceCompilation_first_reconfigurate_thermal_loops_rpcm1_c1-with-change_filter-spaceshipfilter-c1-d1,26,2460.005,13,0.00
+,ReplaceCompilation_post_sleep_c1_d0_d1-with-medical_conference-mcs1-c1-d0,30,2835.009,18,0.00
+,ReplaceCompilation_post_sleep_c1_d0_d1-with-medical_conference-mcs1-c1-d0,30,2715.007,96,0.02
+,ReplaceCompilation_post_sleep_c1_d0_d1-with-medical_conference-mcs1-c1-d0,30,2640.008,21525,5.70
+,ReplaceCompilation_exercise_c1_d1_e1-with-first_reconfigurate_thermal_loops-rpcm1-c1,26,2520.0060000000003,14,0.00
+,ReplaceCompilation_change_filter_spaceshipfilter_c1_d1-with-exercise-c1-d1-e1,26,2520.0060000000003,15,0.00
+,ReplaceCompilation_replace_rpcm_rpcm1_c1-with-remove_sleep_station-rpcm1-c1,26,2340.003,9,0.00
+,ReplaceCompilation_remove_sleep_station_rpcm1_c1-with-exercise-c1-d1-e1,26,2400.004,11,0.00
+,ReplaceCompilation_assemble_sleep_station_rpcm1_c1-with-change_filter-spaceshipfilter-c1-d1,26,2160.002,7,0.00
+,ReplaceCompilation_initialize_day_d1_d2-with-change_filter-spaceshipfilter-c1-d0,30,1500.001,19,0.00
+,ReplaceCompilation_second_reconfigurate_thermal_loops_rpcm1_c1-with-have_meal-c1-d1,26,2100.001,5,0.00
+,ReplaceCompilation_sleep_c1_d1-with-change_filter-spaceshipfilter-c1-d1,26,2040.0,3,0.00
+TimeWindowCompilation,TimeWindowCompilation_initialize_day-d1-d2_1315_5649,32,2755.000,133,0.02
+,TimeWindowCompilation_post_sleep-c1-d0-d1_231_948,32,1440.000,127,0.02
+,TimeWindowCompilation_post_sleep-c1-d0-d1_927_1367,32,1902.004,127,0.04
+,TimeWindowCompilation_first_reconfigurate_thermal_loops-rpcm1-c1_444_620,32,1440.000,125,0.02
+,TimeWindowCompilation_initialize_day-d1-d2_623_3747,32,2063.000,133,0.04
+,TimeWindowCompilation_assemble_sleep_station-rpcm1-c1_1179_1339,32,1839.001,142,0.04
+,TimeWindowCompilation_second_reconfigurate_thermal_loops-rpcm1-c1_1195_1375,32,1855.001,141,0.02
+,TimeWindowCompilation_sleep-c1-d1_1362_2478,32,1962.000,148,0.04
+,TimeWindowCompilation_remove_sleep_station-rpcm1-c1_1334_1513,32,2294.004,124,0.04
+,TimeWindowCompilation_second_reconfigurate_thermal_loops-rpcm1-c1_1193_1394,32,1853.001,141,0.04
+ReorderCompilation,ReorderCompilation_assemble_sleep_station-rpcm1-c1_post_sleep-c1-d0-d1,33,1440.000,119,0.04
+,ReorderCompilation_post_sleep-c1-d0-d1_change_filter-spaceshipfilter-c1-d1,33,1440.000,119,0.04
+,ReorderCompilation_change_filter-spaceshipfilter-c1-d1_change_filter-spaceshipfilter-c1-d1,plan not found
+,ReorderCompilation_replace_rpcm-rpcm1-c1_exercise-c1-d1-e1,33,1440.000,122,0.02
+,ReorderCompilation_post_sleep-c1-d0-d1_sleep-c1-d1,33,1440.000,117,0.04
+,ReorderCompilation_replace_rpcm-rpcm1-c1_sleep-c1-d1,33,1440.000,125,0.02
+,ReorderCompilation_change_filter-spaceshipfilter-c1-d1_finish_rpcm-rpcm1-c1-d1,33,1440.000,133,0.02
+,ReorderCompilation_second_reconfigurate_thermal_loops-rpcm1-c1_sleep-c1-d1,33,1440.000,122,0.02
+,ReorderCompilation_assemble_sleep_station-rpcm1-c1_replace_rpcm-rpcm1-c1,plan not found
+,ReorderCompilation_post_sleep-c1-d0-d1_have_meal-c1-d1,33,1440.000,118,0.04
+ForceTimeWindowCompilation,ForceTimeWindowCompilation_initialize_day-d1-d2_546_4520,32,1986.000,226,0.06
+,ForceTimeWindowCompilation_change_filter-spaceshipfilter-c1-d1_457_595,32,1440.000,190,0.04
+,ForceTimeWindowCompilation_change_filter-spaceshipfilter-c1-d1_568_801,32,1440.000,153,0.04
+,ForceTimeWindowCompilation_change_filter-spaceshipfilter-c1-d1_384_544,32,1440.000,137,0.04
+,ForceTimeWindowCompilation_have_meal-c1-d1_1221_1323,32,1881.001,153,0.04
+,ForceTimeWindowCompilation_second_reconfigurate_thermal_loops-rpcm1-c1_878_1059,32,1538.001,153,0.04
+,ForceTimeWindowCompilation_sleep-c1-d1_850_2512,32,1450.000,144,0.02
+,ForceTimeWindowCompilation_have_meal-c1-d1_1042_1223,32,1702.001,153,0.04
+,ForceTimeWindowCompilation_have_meal-c1-d1_1261_1438,32,1921.001,153,0.04
+,ForceTimeWindowCompilation_change_filter-spaceshipfilter-c1-d1_1261_1400,32,1921.001,153,0.02
+ForceTimeWindowOnlyCompilation,ForceTimeWindowOnlyCompilation_have_meal-c1-d1_1282_1433,33,1942.001,136,0.04
+,ForceTimeWindowOnlyCompilation_first_reconfigurate_thermal_loops-rpcm1-c1_1376_1466,33,2336.004,121,0.02
+,ForceTimeWindowOnlyCompilation_change_filter-spaceshipfilter-c1-d1_1268_1419,33,1928.001,148,0.02
+,ForceTimeWindowOnlyCompilation_replace_rpcm-rpcm1-c1_421_1054,33,1440.000,130,0.02
+,ForceTimeWindowOnlyCompilation_change_filter-spaceshipfilter-c1-d1_353_578,33,1440.000,236,0.04
+,ForceTimeWindowOnlyCompilation_change_filter-spaceshipfilter-c1-d1_98_239,plan not found
+,ForceTimeWindowOnlyCompilation_change_filter-spaceshipfilter-c1-d1_1116_1215,33,1776.001,148,0.04
+,ForceTimeWindowOnlyCompilation_post_sleep-c1-d0-d1_360_876,33,1440.000,127,0.04
+,ForceTimeWindowOnlyCompilation_exercise-c1-d1-e1_1285_1394,33,1945.001,135,0.04
+,ForceTimeWindowOnlyCompilation_initialize_day-d1-d2_390_4753,33,1830.000,132,0.02
+question,name,Literals,Metric,Evaluated,Time
+,pfile2,38,1440.000,20,0.00
+AddCompilation,AddCompilation_report_payload_activity_at_deadline-pa1_1-c1-d1,50,1440.000,20,0.00
+,AddCompilation_report_payload_activity_at_deadline-pa1_1-c1-d0,50,1440.000,18,0.00
+,AddCompilation_post_sleep-c1-d1-d2,40,1635.001,133,0.02
+,AddCompilation_exercise-c1-d2-e1,40,1695.002,134,0.02
+,AddCompilation_have_meal-c1-d2,40,1695.002,134,0.02
+,AddCompilation_report_payload_activity_at_deadline-pa1_3-c1-d2,50,1636.002,134,0.04
+,AddCompilation_medical_conference-mcs1-c1-d2,41,1695.002,134,0.04
+,AddCompilation_sleep-c1-d2,40,2355.004,150,0.04
+,AddCompilation_conduct_payload_activity-pa1_2-c1,42,1440.000,20,0.00
+,AddCompilation_report_payload_activity_at_deadline-pa1_2-c1-d0,50,1440.000,18,0.00
+RemoveCompilation,RemoveCompilation_initialize_day-d1-d2,plan not found
+,RemoveCompilation_conduct_payload_activity-pa1_4-c1,plan not found
+,RemoveCompilation_report_payload_activity_at_deadline-pa1_3-c1-d1,plan not found
+,RemoveCompilation_medical_conference-mcs1-c1-d1,plan not found
+,RemoveCompilation_post_sleep-c1-d0-d1,plan not found
+,RemoveCompilation_conduct_payload_activity-pa1_3-c1,plan not found
+,RemoveCompilation_report_payload_activity_at_deadline-pa1_4-c1-d1,plan not found
+,RemoveCompilation_have_meal-c1-d1,plan not found
+,RemoveCompilation_report_payload_activity_at_deadline-pa1_1-c1-d1,plan not found
+,RemoveCompilation_report_payload_activity_at_deadline-pa1_2-c1-d1,plan not found
+ReplaceCompilation,ReplaceCompilation_conduct_payload_activity_pa1_3_c1-with-conduct_payload_activity-pa1_2-c1,31,2160.002,9,0.00
+,ReplaceCompilation_conduct_payload_activity_pa1_1_c1-with-conduct_payload_activity-pa1_2-c1,31,2220.003,12,0.00
+,ReplaceCompilation_conduct_payload_activity_pa1_2_c1-with-conduct_payload_activity-pa1_1-c1,31,2220.003,12,0.00
+,ReplaceCompilation_post_sleep_c1_d0_d1-with-initialize_day-d1-d2,38,2655.008,19,0.00
+,ReplaceCompilation_post_sleep_c1_d0_d1-with-initialize_day-d1-d2,38,2475.005,122,0.02
+,ReplaceCompilation_report_payload_activity_at_deadline_pa1_1_c1_d1-with-initialize_day-d1-d2,31,2595.0119999999997,10,0.00
+,ReplaceCompilation_medical_conference_mcs1_c1_d1-with-change_filter-spaceshipfilter-c1-d1,31,2340.005,16,0.00
+,ReplaceCompilation_have_meal_c1_d1-with-conduct_payload_activity-pa1_4-c1,31,2400.006,16,0.00
+,ReplaceCompilation_sleep_c1_d1-with-exercise-c1-d1-e1,31,2040.0,3,0.00
+,ReplaceCompilation_report_payload_activity_at_deadline_pa1_4_c1_d1-with-report_payload_activity_at_deadline-pa1_4-c1-d1,plan not found
+,ReplaceCompilation_report_payload_activity_at_deadline_pa1_3_c1_d1-with-report_payload_activity_at_deadline-pa1_1-c1-d1,31,2040.0,4,0.00
+TimeWindowCompilation,TimeWindowCompilation_report_payload_activity_at_deadline-pa1_3-c1-d1_1438_1439,plan not found
+,TimeWindowCompilation_exercise-c1-d1-e1_377_512,40,1440.000,166,0.04
+,TimeWindowCompilation_report_payload_activity_at_deadline-pa1_2-c1-d1_1363_1366,40,1440.000,162,0.04
+,TimeWindowCompilation_sleep-c1-d1_1256_2552,40,1856.000,181,0.04
+,TimeWindowCompilation_exercise-c1-d1-e1_875_1058,40,1535.001,166,0.04
+,TimeWindowCompilation_conduct_payload_activity-pa1_2-c1_338_470,40,1440.000,176,0.04
+,TimeWindowCompilation_conduct_payload_activity-pa1_4-c1_460_644,40,1440.000,175,0.04
+,TimeWindowCompilation_initialize_day-d1-d2_223_4975,40,1663.000,162,0.04
+,TimeWindowCompilation_report_payload_activity_at_deadline-pa1_3-c1-d1_239_241,40,1440.000,163,0.04
+,TimeWindowCompilation_report_payload_activity_at_deadline-pa1_1-c1-d1_804_806,40,1440.000,161,0.04
+ReorderCompilation,ReorderCompilation_report_payload_activity_at_deadline-pa1_3-c1-d1_exercise-c1-d1-e1,41,1440.000,155,0.02
+,ReorderCompilation_medical_conference-mcs1-c1-d1_sleep-c1-d1,41,1440.000,166,0.04
+,ReorderCompilation_have_meal-c1-d1_sleep-c1-d1,41,1440.000,156,0.04
+,ReorderCompilation_exercise-c1-d1-e1_exercise-c1-d1-e1,plan not found
+,ReorderCompilation_sleep-c1-d1_sleep-c1-d1,plan not found
+,ReorderCompilation_conduct_payload_activity-pa1_4-c1_report_payload_activity_at_deadline-pa1_1-c1-d1,41,1440.000,170,0.04
+,ReorderCompilation_conduct_payload_activity-pa1_2-c1_report_payload_activity_at_deadline-pa1_1-c1-d1,41,1440.000,172,0.04
+,ReorderCompilation_post_sleep-c1-d0-d1_report_payload_activity_at_deadline-pa1_2-c1-d1,41,1440.000,140,0.04
+,ReorderCompilation_initialize_day-d1-d2_conduct_payload_activity-pa1_3-c1,41,2100.002,163,0.04
+,ReorderCompilation_exercise-c1-d1-e1_initialize_day-d1-d2,41,1875.005,157,0.02
+,ReorderCompilation_exercise-c1-d1-e1_initialize_day-d1-d2,41,1815.004,11849,2.82
+,ReorderCompilation_exercise-c1-d1-e1_initialize_day-d1-d2,41,1755.003,12004,2.88
+ForceTimeWindowCompilation,ForceTimeWindowCompilation_have_meal~c1~d1_716_813,40,1440.000,183,0.04
+,ForceTimeWindowCompilation_exercise-c1-d1-e1_1238_1344,40,1898.001,183,0.06
+,ForceTimeWindowCompilation_conduct_payload_activity-pa1_3-c1_189_417,40,1440.000,307,0.08
+,ForceTimeWindowCompilation_report_payload_activity_at_deadline-pa1_2-c1-d1_1318_1321,40,1440.000,2316,0.58
+,ForceTimeWindowCompilation_post_sleep-c1-d0-d1_837_1572,40,1812.004,161,0.04
+,ForceTimeWindowCompilation_conduct_payload_activity-pa1_1-c1_312_470,40,1440.000,273,0.08
+,ForceTimeWindowCompilation_report_payload_activity_at_deadline-pa1_2-c1-d1_1360_1363,40,1440.000,2316,0.60
+,ForceTimeWindowCompilation_medical_conference~mcs1~c1~d1_1283_1434,40,1943.001,183,0.06
+,ForceTimeWindowCompilation_have_meal-c1-d1_1164_1322,40,1824.001,183,0.04
+,ForceTimeWindowCompilation_report_payload_activity_at_deadline-pa1_2-c1-d1_1184_1187,40,1440.000,2316,0.60
+ForceTimeWindowOnlyCompilation,ForceTimeWindowOnlyCompilation_medical_conference-mcs1-c1-d1_559_727,41,1440.000,179,0.04
+,ForceTimeWindowOnlyCompilation_conduct_payload_activity-pa1_1-c1_298_418,41,1440.000,200,0.06
+,ForceTimeWindowOnlyCompilation_report_payload_activity_at_deadline~pa1_4~c1~d1_263_265,41,1440.000,160,0.04
+,ForceTimeWindowOnlyCompilation_conduct_payload_activity-pa1_3-c1_72_235,41,1440.000,693,0.14
+,ForceTimeWindowOnlyCompilation_exercise-c1-d1-e1_1153_1255,41,1813.001,166,0.04
+,ForceTimeWindowOnlyCompilation_sleep-c1-d1_998_2090,41,1598.000,172,0.04
+,ForceTimeWindowOnlyCompilation_conduct_payload_activity-pa1_1-c1_1431_1626,41,2091.001,175,0.04
+,ForceTimeWindowOnlyCompilation_post_sleep-c1-d0-d1_1251_1555,41,2226.004,145,0.04
+,ForceTimeWindowOnlyCompilation_medical_conference-mcs1-c1-d1_1339_1452,41,1999.001,179,0.04
+,ForceTimeWindowOnlyCompilation_conduct_payload_activity-pa1_3-c1_971_1169,41,1631.001,173,0.04
+question,name,Literals,Metric,Evaluated,Time
+,pfile20,270,2880.001,13805,17.45
+AddCompilation,AddCompilation_report_payload_activity_at_deadline-pa2_11-c2-d1,714,2880.001,13956,17.98
+,AddCompilation_report_payload_activity_at_deadline-pa2_15-c1-d2,714,2880.001,15500,22.74
+,AddCompilation_report_payload_activity_at_deadline-pa2_8-c2-d1,714,2880.001,13957,17.98
+,AddCompilation_report_payload_activity_at_deadline-pa1_1-c1-d3,714,3076.003,13810,17.60
+,AddCompilation_conduct_payload_activity-pa2_5-c2,381,2880.001,13788,17.34
+,AddCompilation_report_payload_activity_at_deadline-pa2_12-c3-d2,714,2880.001,15512,21.02
+,AddCompilation_report_payload_activity_at_deadline-pa1_15-c3-d2,714,2880.001,13878,17.60
+,AddCompilation_report_payload_activity_at_deadline-pa1_10-c3-d2,714,2880.001,13878,17.58
+,AddCompilation_report_payload_activity_at_deadline-pa2_8-c3-d3,714,3076.003,13809,17.58
+,AddCompilation_post_sleep-c1-d1-d2,279,2880.001,13805,17.28
+RemoveCompilation,RemoveCompilation_conduct_payload_activity-pa2_3-c3,271,2880.001,13805,17.37
+,RemoveCompilation_report_payload_activity_at_deadline-pa2_1-c3-d2,271,2880.001,13909,17.54
+,RemoveCompilation_conduct_payload_activity-pa1_17-c3,271,2880.001,13805,17.36
+,RemoveCompilation_report_payload_activity_at_deadline-pa2_2-c3-d2,271,2880.001,13909,17.52
+,RemoveCompilation_report_payload_activity_at_deadline-pa2_11-c3-d2,271,2880.001,13909,17.58
+,RemoveCompilation_report_payload_activity_at_deadline-pa1_13-c1-d1,271,2880.001,13805,17.32
+,RemoveCompilation_conduct_payload_activity-pa1_10-c2,271,2880.001,13805,17.29
+,RemoveCompilation_second_reconfigurate_thermal_loops-rpcm2-c2,271,2880.001,14612,18.74
+,RemoveCompilation_exercise-c2-d1-e2,271,2880.001,13808,17.32
+,RemoveCompilation_report_payload_activity_at_deadline-pa2_9-c3-d2,271,2880.001,13909,17.54
+ReplaceCompilation,ReplaceCompilation_report_payload_activity_at_deadline_pa1_11_c1_d1-with-conduct_payload_activity-pa1_12-c1,225,5415.043,5760,5.04
+,ReplaceCompilation_first_reconfigurate_thermal_loops_rpcm2_c1-with-conduct_payload_activity-pa2_6-c3,225,3404.9880000000003,3310,2.16
+,ReplaceCompilation_conduct_payload_activity_pa1_1_c1-with-conduct_payload_activity-pa2_5-c1,270,3196.005,13798,18.62
+,ReplaceCompilation_conduct_payload_activity_pa1_1_c1-with-conduct_payload_activity-pa2_5-c1,270,2970.0240000000003,17420,29.20
+,ReplaceCompilation_conduct_payload_activity_pa1_1_c1-with-conduct_payload_activity-pa2_5-c1,270,2940.0020000000004,17634,29.78
+,ReplaceCompilation_conduct_payload_activity_pa1_8_c2-with-conduct_payload_activity-pa2_7-c2,225,4635.030000000001,3686,3.00
+,ReplaceCompilation_sleep_c1_d2-with-sleep-c1-d2,plan not found
+,ReplaceCompilation_conduct_payload_activity_pa1_19_c1-with-have_meal-c1-d1,225,4995.036,4413,3.48
+,ReplaceCompilation_medical_conference_mcs2_c1_d1-with-conduct_payload_activity-pa1_14-c1,225,5175.039000000001,4506,3.50
+,ReplaceCompilation_assemble_sleep_station_rpcm2_c1-with-conduct_payload_activity-pa2_9-c3,225,3164.986,5607,3.70
+,ReplaceCompilation_exercise_c2_d1_e2-with-conduct_payload_activity-pa2_4-c2,225,5295.041,4419,4.44
+,ReplaceCompilation_report_payload_activity_at_deadline_pa1_2_c1_d1-with-conduct_payload_activity-pa2_17-c3,225,4635.030000000001,5052,4.04
+TimeWindowCompilation,TimeWindowCompilation_report_payload_activity_at_deadline-pa1_19-c1-d1_1033_1036,272,2880.001,13914,17.60
+,TimeWindowCompilation_report_payload_activity_at_deadline-pa2_8-c3-d2_539_540,272,2880.001,14018,24.10
+,TimeWindowCompilation_sleep-c1-d2_2526_3930,272,3126.000,14028,17.78
+,TimeWindowCompilation_first_reconfigurate_thermal_loops-rpcm2-c1_2028_2200,272,2880.001,13914,20.20
+,TimeWindowCompilation_conduct_payload_activity-pa2_11-c3_2020_2186,272,2880.001,13914,17.50
+,TimeWindowCompilation_conduct_payload_activity-pa2_16-c2_1732_1828,272,2880.001,13914,17.58
+,TimeWindowCompilation_conduct_payload_activity-pa2_18-c1_305_497,272,2880.001,13914,17.50
+,TimeWindowCompilation_conduct_payload_activity-pa1_11-c3_26_209,272,2880.001,13914,27.12
+,TimeWindowCompilation_exercise-c3-d1-e3_2522_2615,272,3796.013,234,0.36
+,TimeWindowCompilation_exercise-c3-d1-e3_2522_2615,272,2880.001,14123,17.87
+,TimeWindowCompilation_conduct_payload_activity-pa1_18-c3_1219_1348,272,2880.001,13914,17.52
+ReorderCompilation,ReorderCompilation_report_payload_activity_at_deadline-pa1_9-c1-d1_report_payload_activity_at_deadline-pa2_8-c3-d2,273,2880.001,13912,17.71
+,ReorderCompilation_report_payload_activity_at_deadline-pa1_7-c1-d1_report_payload_activity_at_deadline-pa2_4-c3-d2,273,2880.001,13914,17.71
+,ReorderCompilation_conduct_payload_activity-pa1_4-c1_have_meal-c1-d2,273,2880.001,13850,17.40
+,ReorderCompilation_assemble_sleep_station-rpcm2-c1_initialize_day-d2-d3,273,3690.022,13943,17.66
+,ReorderCompilation_second_reconfigurate_thermal_loops-rpcm2-c2_post_sleep-c1-d0-d1,273,4965.011,16120,23.16
+,ReorderCompilation_second_reconfigurate_thermal_loops-rpcm2-c2_post_sleep-c1-d0-d1,273,4080.029,43465,106.70
+,ReorderCompilation_post_sleep-c3-d0-d1_report_payload_activity_at_deadline-pa1_6-c1-d1,273,2880.001,13916,17.98
+,ReorderCompilation_report_payload_activity_at_deadline-pa1_6-c1-d1_exercise-c1-d2-e1,273,2880.001,13815,17.74
+,ReorderCompilation_initialize_day-d1-d2_report_payload_activity_at_deadline-pa1_2-c1-d1,273,2880.001,13871,17.52
+,ReorderCompilation_report_payload_activity_at_deadline-pa2_12-c3-d2_exercise-c2-d1-e2,273,2880.001,13827,17.40
+,ReorderCompilation_remove_sleep_station-rpcm2-c2_initialize_day-d2-d3,273,2880.001,13940,17.70
+ForceTimeWindowCompilation,ForceTimeWindowCompilation_conduct_payload_activity-pa1_15-c1_1753_1905,272,3328.005,14839,28.38
+,ForceTimeWindowCompilation_conduct_payload_activity-pa1_6-c3_2180_2323,272,2880.001,14023,17.78
+,ForceTimeWindowCompilation_conduct_payload_activity-pa1_7-c1_1428_1538,272,3003.005,15306,19.50
+,ForceTimeWindowCompilation_conduct_payload_activity-pa2_1-c1_2551_2701,272,3211.001,14035,17.79
+,ForceTimeWindowCompilation_conduct_payload_activity-pa2_7-c1_2121_2349,272,2880.001,14035,34.72
+,ForceTimeWindowCompilation_conduct_payload_activity-pa1_7-c1_1267_1396,272,2880.001,15291,19.56
+,ForceTimeWindowCompilation_conduct_payload_activity-pa1_9-c3_2125_2281,272,2880.001,14023,18.02
+,ForceTimeWindowCompilation_sleep-c3-d2_1964_4166,272,2880.001,13973,17.76
+,ForceTimeWindowCompilation_report_payload_activity_at_deadline-pa2_6-c3-d2_2562_2564,plan not found
+,ForceTimeWindowCompilation_conduct_payload_activity-pa2_7-c1_2199_2293,272,2880.001,14035,17.84
+ForceTimeWindowOnlyCompilation,ForceTimeWindowOnlyCompilation_conduct_payload_activity-pa1_8-c2_2121_2263,273,2880.001,14027,20.45
+,ForceTimeWindowOnlyCompilation_initialize_day-d1-d2_2541_5723,273,5421.001,16151,50.46
+,ForceTimeWindowOnlyCompilation_conduct_payload_activity-pa1_13-c2_841_1074,273,2880.001,15028,19.16
+,ForceTimeWindowOnlyCompilation_conduct_payload_activity-pa2_14-c3_2155_2330,273,2880.001,14023,17.94
+,ForceTimeWindowOnlyCompilation_conduct_payload_activity-pa1_2-c2_2699_2855,273,3359.001,14027,20.56
+,ForceTimeWindowOnlyCompilation_conduct_payload_activity-pa1_12-c1_1189_1421,273,2880.001,15304,19.48
+,ForceTimeWindowOnlyCompilation_post_sleep-c1-d0-d1_2052_2566,273,3882.007,15305,21.40
+,ForceTimeWindowOnlyCompilation_replace_rpcm-rpcm2-c3_1001_1652,273,2910.021,15304,19.70
+,ForceTimeWindowOnlyCompilation_sleep-c1-d1_1202_3296,273,2880.001,15239,19.42
+,ForceTimeWindowOnlyCompilation_sleep-c2-d1_576_2046,273,2880.001,15232,19.54
+question,name,Literals,Metric,Evaluated,Time
+,pfile5,62,1455.012,30,0.00
+,pfile5,62,1440.000,541,0.14
+AddCompilation,AddCompilation_report_payload_activity_at_deadline-pa1_5-c2-d1,98,1440.000,530,0.16
+,AddCompilation_have_meal-c1-d1,66,1455.012,30,0.00
+,AddCompilation_have_meal-c1-d1,66,1440.000,541,0.16
+,AddCompilation_medical_conference-mcs1-c2-d1,74,1515.013,33,0.00
+,AddCompilation_medical_conference-mcs1-c2-d1,74,1440.000,569,0.16
+,AddCompilation_report_payload_activity_at_deadline-pa1_2-c1-d2,98,1636.002,32,0.00
+,AddCompilation_report_payload_activity_at_deadline-pa1_2-c2-d1,98,1440.000,530,0.16
+,AddCompilation_medical_conference-mcs2-c1-d0,74,1440.000,27,0.00
+,AddCompilation_sleep-c2-d1,66,1455.012,30,0.00
+,AddCompilation_sleep-c2-d1,66,1440.000,541,0.14
+,AddCompilation_medical_conference-mcs1-c1-d1,74,1455.012,32,0.00
+,AddCompilation_medical_conference-mcs1-c1-d1,74,1440.000,568,0.16
+,AddCompilation_exercise-c2-d1-e1,66,1455.012,30,0.00
+,AddCompilation_exercise-c2-d1-e1,66,1440.000,541,0.18
+,AddCompilation_report_payload_activity_at_deadline-pa1_5-c1-d2,98,1636.002,32,0.00
+RemoveCompilation,RemoveCompilation_conduct_payload_activity-pa1_4-c2,63,1440.000,553,0.14
+,RemoveCompilation_report_payload_activity_at_deadline-pa1_6-c1-d1,63,1440.000,546,0.16
+,RemoveCompilation_sleep-c1-d1,plan not found
+,RemoveCompilation_conduct_payload_activity-pa1_3-c1,63,1455.012,30,0.00
+,RemoveCompilation_conduct_payload_activity-pa1_3-c1,63,1440.000,541,0.14
+,RemoveCompilation_report_payload_activity_at_deadline-pa1_1-c1-d1,63,1440.000,541,0.14
+,RemoveCompilation_conduct_payload_activity-pa1_6-c2,63,1440.000,546,0.16
+,RemoveCompilation_report_payload_activity_at_deadline-pa1_4-c1-d1,63,1440.000,544,0.14
+,RemoveCompilation_exercise-c1-d1-e1,plan not found
+,RemoveCompilation_have_meal-c1-d1,plan not found
+,RemoveCompilation_conduct_payload_activity-pa1_5-c1,63,1455.012,30,0.00
+,RemoveCompilation_conduct_payload_activity-pa1_5-c1,63,1440.000,541,0.14
+ReplaceCompilation,ReplaceCompilation_report_payload_activity_at_deadline_pa1_6_c1_d1-with-report_payload_activity_at_deadline-pa1_4-c1-d1,51,2280.004,10,0.00
+ReplaceCompilation,ReplaceCompilation_report_payload_activity_at_deadline_pa1_6_c1_d1-with-report_payload_activity_at_deadline-pa1_4-c1-d1,51,2220.003,171,0.04
+,ReplaceCompilation_conduct_payload_activity_pa1_6_c2-with-initialize_day-d1-d2,51,2400.004,17,0.00
+,ReplaceCompilation_conduct_payload_activity_pa1_6_c2-with-initialize_day-d1-d2,51,2340.003,344,0.06
+,ReplaceCompilation_exercise_c1_d1_e1-with-exercise-c2-d1-e1,51,2100.001,6,0.00
+,ReplaceCompilation_report_payload_activity_at_deadline_pa1_4_c1_d1-with-report_payload_activity_at_deadline-pa1_5-c1-d1,51,2280.004,11,0.00
+,ReplaceCompilation_report_payload_activity_at_deadline_pa1_4_c1_d1-with-report_payload_activity_at_deadline-pa1_5-c1-d1,51,2220.003,198,0.04
+,ReplaceCompilation_medical_conference_mcs2_c2_d1-with-conduct_payload_activity-pa1_6-c2,51,2100.001,6,0.00
+,ReplaceCompilation_conduct_payload_activity_pa1_3_c1-with-conduct_payload_activity-pa1_2-c1,51,2460.007,23,0.00
+,ReplaceCompilation_conduct_payload_activity_pa1_3_c1-with-conduct_payload_activity-pa1_2-c1,51,2340.005,414,0.10
+,ReplaceCompilation_report_payload_activity_at_deadline_pa1_2_c1_d1-with-medical_conference-mcs1-c2-d1,51,2280.004,14,0.00
+,ReplaceCompilation_report_payload_activity_at_deadline_pa1_2_c1_d1-with-medical_conference-mcs1-c2-d1,51,2220.003,291,0.06
+,ReplaceCompilation_conduct_payload_activity_pa1_2_c2-with-conduct_payload_activity-pa1_3-c2,62,1500.001,26,0.00
+,ReplaceCompilation_report_payload_activity_at_deadline_pa1_5_c1_d1-with-report_payload_activity_at_deadline-pa1_2-c1-d1,51,2280.004,11,0.00
+,ReplaceCompilation_report_payload_activity_at_deadline_pa1_5_c1_d1-with-report_payload_activity_at_deadline-pa1_2-c1-d1,51,2220.003,198,0.04
+,ReplaceCompilation_conduct_payload_activity_pa1_1_c1-with-conduct_payload_activity-pa1_2-c1,62,1500.001,28,0.00
+TimeWindowCompilation,TimeWindowCompilation_conduct_payload_activity-pa1_6-c2_1437_1578,64,1440.000,567,0.16
+,TimeWindowCompilation_conduct_payload_activity-pa1_1-c1_150_265,64,1455.012,30,0.00
+,TimeWindowCompilation_conduct_payload_activity-pa1_1-c1_150_265,64,1440.000,562,0.16
+,TimeWindowCompilation_report_payload_activity_at_deadline-pa1_4-c1-d1_214_217,64,1440.000,565,0.16
+,TimeWindowCompilation_have_meal-c1-d1_434_549,64,1440.000,570,0.16
+,TimeWindowCompilation_exercise-c2-d1-e1_329_558,64,1440.000,568,0.16
+,TimeWindowCompilation_conduct_payload_activity-pa1_2-c2_816_963,64,1440.000,576,0.16
+,TimeWindowCompilation_post_sleep-c1-d0-d1_1032_1386,64,1947.003,489,0.14
+,TimeWindowCompilation_post_sleep-c1-d0-d1_177_816,64,1440.000,489,0.14
+,TimeWindowCompilation_conduct_payload_activity-pa1_6-c2_1127_1358,64,1440.000,567,0.16
+,TimeWindowCompilation_exercise-c2-d1-e1_1179_1338,64,1839.001,568,0.16
+ReorderCompilation,ReorderCompilation_initialize_day-d1-d2_post_sleep-c1-d0-d1,65,2355.004,476,0.14
+,ReorderCompilation_report_payload_activity_at_deadline-pa1_4-c1-d1_report_payload_activity_at_deadline-pa1_6-c1-d1,65,1440.000,554,0.14
+,ReorderCompilation_report_payload_activity_at_deadline-pa1_3-c1-d1_report_payload_activity_at_deadline-pa1_5-c1-d1,65,1440.000,552,0.16
+,ReorderCompilation_conduct_payload_activity-pa1_3-c1_sleep-c2-d1,65,2295.003,628,0.20
+,ReorderCompilation_conduct_payload_activity-pa1_3-c1_sleep-c2-d1,65,1440.000,840,0.28
+,ReorderCompilation_exercise-c1-d1-e1_report_payload_activity_at_deadline-pa1_6-c1-d1,65,1440.000,568,0.16
+,ReorderCompilation_conduct_payload_activity-pa1_5-c1_report_payload_activity_at_deadline-pa1_6-c1-d1,65,1440.000,566,0.16
+,ReorderCompilation_report_payload_activity_at_deadline-pa1_3-c1-d1_report_payload_activity_at_deadline-pa1_3-c1-d1,64,1440.000,543,0.14
+,ReorderCompilation_conduct_payload_activity-pa1_1-c1_report_payload_activity_at_deadline-pa1_5-c1-d1,65,1440.000,565,0.14
+,ReorderCompilation_conduct_payload_activity-pa1_2-c2_conduct_payload_activity-pa1_6-c2,65,1440.000,570,0.16
+,ReorderCompilation_report_payload_activity_at_deadline-pa1_4-c1-d1_post_sleep-c1-d0-d1,plan not found
+ForceTimeWindowCompilation,ForceTimeWindowCompilation_conduct_payload_activity-pa1_5-c1_968_1146,64,1628.001,598,0.16
+,ForceTimeWindowCompilation_have_meal-c2-d1_499_652,64,1440.000,593,0.18
+,ForceTimeWindowCompilation_report_payload_activity_at_deadline-pa1_3-c1-d1_368_370,64,1440.000,51381,22.24
+,ForceTimeWindowCompilation_exercise~c1~d1~e1_938_1143,64,1598.001,598,0.18
+,ForceTimeWindowCompilation_conduct_payload_activity-pa1_5-c1_1246_1396,64,1906.001,598,0.16
+,ForceTimeWindowCompilation_exercise~c2~d1~e1_936_1053,64,1596.001,597,0.20
+,ForceTimeWindowCompilation_conduct_payload_activity-pa1_5-c1_491_632,64,1440.000,600,0.18
+,ForceTimeWindowCompilation_conduct_payload_activity-pa1_4-c2_586_689,64,1440.000,597,0.16
+,ForceTimeWindowCompilation_exercise-c2-d1-e1_515_630,64,1440.000,593,0.18
+,ForceTimeWindowCompilation_medical_conference-mcs2-c2-d1_928_1052,64,1588.001,597,0.18
+ForceTimeWindowOnlyCompilation,ForceTimeWindowOnlyCompilation_have_meal-c1-d1_151_310,65,1440.000,1348,0.46
+,ForceTimeWindowOnlyCompilation_have_meal-c2-d1_539_736,65,1440.000,569,0.16
+,ForceTimeWindowOnlyCompilation_initialize_day-d1-d2_1225_5343,65,2665.000,566,0.16
+,ForceTimeWindowOnlyCompilation_report_payload_activity_at_deadline-pa1_3-c1-d1_1324_1326,65,1440.000,6173,2.42
+,ForceTimeWindowOnlyCompilation_post_sleep-c2-d0-d1_70_385,65,1440.000,491,0.14
+,ForceTimeWindowOnlyCompilation_conduct_payload_activity-pa1_6-c2_789_1025,65,1449.001,594,0.18
+,ForceTimeWindowOnlyCompilation_exercise-c2-d1-e1_61_261,65,1440.000,840,0.26
+,ForceTimeWindowOnlyCompilation_post_sleep-c2-d0-d1_1253_1761,65,2168.003,491,0.14
+,ForceTimeWindowOnlyCompilation_post_sleep-c2-d0-d1_1367_1977,65,2282.003,491,0.14
+,ForceTimeWindowOnlyCompilation_exercise~c1~d1~e1_727_962,65,1440.000,571,0.18
